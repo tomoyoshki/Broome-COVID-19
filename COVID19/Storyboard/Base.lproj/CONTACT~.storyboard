@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SHL-Ro-9SG">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--CONTACT-->
+        <scene sceneID="WJO-h3-zlN">
+            <objects>
+                <viewController id="ypf-h8-dTx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="huF-4t-NNr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="yHx-fF-uws"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CONTACT" image="phone.fill" catalog="system" id="l9F-QP-Aqt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zpC-Ob-ZMt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="690"/>
+        </scene>
+        <!--PREVENTION-->
+        <scene sceneID="dvP-f7-0Jy">
+            <objects>
+                <viewController id="vjZ-7w-zef" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q0Z-qL-UmJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="tD1-bO-9tW"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PREVENTION" image="hand.raised.slash.fill" catalog="system" id="QlT-0A-6es"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0hy-Dc-uTw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1833" y="689"/>
+        </scene>
+        <!--COVID 19-->
+        <scene sceneID="ITe-ge-I8D">
+            <objects>
+                <tabBarController title="COVID 19" id="SHL-Ro-9SG" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HjB-ci-Dpv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yFZ-GD-l2z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622" y="-50"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hand.raised.slash.fill" catalog="system" width="128" height="124"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
+    </resources>
+</document>

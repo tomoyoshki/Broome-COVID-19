@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0fY-y1-9ef">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--CAUTIONS-->
+        <scene sceneID="m4C-pw-CWG">
+            <objects>
+                <viewController id="0fY-y1-9ef" customClass="caution" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MGv-bq-Trh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iNm-nL-SV9">
+                                <rect key="frame" x="0.0" y="44" width="375" height="922"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lpU-XW-Xbv">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2455"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Llr-Vt-Y9r">
+                                                <rect key="frame" x="10" y="70" width="355" height="570.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symptons" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qth-5B-5nF">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="47.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="40"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The 2019 novel coronavirus may cause mild to severe respiratory symptoms like:" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZA-xW-kWm">
+                                                        <rect key="frame" x="0.0" y="62.5" width="355" height="69.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  - Cough" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cd7-0w-6k1">
+                                                        <rect key="frame" x="0.0" y="147" width="355" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  - Fever" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMv-rz-1Lq">
+                                                        <rect key="frame" x="0.0" y="185.5" width="355" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  - Trouble breathing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQc-FG-Ud5">
+                                                        <rect key="frame" x="0.0" y="224" width="355" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  - Pneumonia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpB-Tn-0jK">
+                                                        <rect key="frame" x="0.0" y="262.5" width="355" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- CDC believes at this time that symptoms may appear in as few as 2 days or as long as 14 days after exposure to the virus." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BwS-yc-CiC">
+                                                        <rect key="frame" x="0.0" y="301" width="355" height="92.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gov-Qj-aW4">
+                                                        <rect key="frame" x="0.0" y="408.5" width="355" height="162"/>
+                                                        <string key="text">- If you are experiencing symptoms and may have traveled to areas of concern, or have been in contact with somebody who has traveled to areas of concern, contact your health provider by phone immediately.</string>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="xBn-yw-2iS">
+                                                <rect key="frame" x="10" y="1190.5" width="355" height="570"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prevention" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7l-1F-3Fr">
+                                                        <rect key="frame" x="0.0" y="0.0" width="355" height="47.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="40"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTG-LU-7Be">
+                                                        <rect key="frame" x="0.0" y="62.5" width="355" height="92.5"/>
+                                                        <string key="text">While there is currently no vaccine to prevent this virus, these simple steps can help stop the spread of this and other respiratory viruses:</string>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qv2-yZ-IFO">
+                                                        <rect key="frame" x="0.0" y="170" width="355" height="92.5"/>
+                                                        <string key="text">  - Wash your hands often with soap and water for at least 20 seconds. If soap and water are not available, use an alcohol-based hand sanitizer.</string>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  - Avoid touching your eyes, nose and mouth with unwashed hands." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTm-H4-7EI">
+                                                        <rect key="frame" x="0.0" y="277.5" width="355" height="46.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  - Avoid close contact with people who are sick." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QH-Yh-V50">
+                                                        <rect key="frame" x="0.0" y="339" width="355" height="46.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  - Stay home when you are sick." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAZ-bo-UQ4">
+                                                        <rect key="frame" x="0.0" y="400.5" width="355" height="23.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  - Cover your cough or sneeze with a tissue, then throw the tissue in the trash." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0w-Jg-At3">
+                                                        <rect key="frame" x="0.0" y="439" width="355" height="69.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  - Clean and disinfect frequently touched objects and surfaces." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dow-ta-pUv">
+                                                        <rect key="frame" x="0.0" y="523.5" width="355" height="46.5"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                                        <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdcsympton" translatesAutoresizingMaskIntoConstraints="NO" id="hct-Kb-UZI">
+                                                <rect key="frame" x="-2.5" y="670.5" width="380" height="480"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="380" id="Ej3-oH-WeB"/>
+                                                    <constraint firstAttribute="height" constant="480" id="sr7-nO-vBT"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cdcprevention" translatesAutoresizingMaskIntoConstraints="NO" id="bu0-fU-6Hp">
+                                                <rect key="frame" x="-2.5" y="1790.5" width="380" height="480"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="380" id="2FD-gc-NZL"/>
+                                                    <constraint firstAttribute="height" constant="480" id="whU-QS-uqJ"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq1-ZZ-dRF">
+                                                <rect key="frame" x="0.0" y="2300.5" width="375" height="36"/>
+                                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="20"/>
+                                                <state key="normal" title="Click here for more information"/>
+                                                <connections>
+                                                    <action selector="infoclick:" destination="0fY-y1-9ef" eventType="touchUpInside" id="8UD-Cw-pf3"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="bu0-fU-6Hp" firstAttribute="centerX" secondItem="lpU-XW-Xbv" secondAttribute="centerX" id="41H-HJ-2s0"/>
+                                            <constraint firstAttribute="height" constant="2455" id="7F9-WM-QKl"/>
+                                            <constraint firstItem="hct-Kb-UZI" firstAttribute="centerX" secondItem="lpU-XW-Xbv" secondAttribute="centerX" id="8bW-TA-gKA"/>
+                                            <constraint firstItem="xBn-yw-2iS" firstAttribute="leading" secondItem="lpU-XW-Xbv" secondAttribute="leading" constant="10" id="LCx-bA-hl0"/>
+                                            <constraint firstItem="Llr-Vt-Y9r" firstAttribute="top" secondItem="lpU-XW-Xbv" secondAttribute="top" constant="70" id="LUT-Z9-wty"/>
+                                            <constraint firstItem="hct-Kb-UZI" firstAttribute="top" secondItem="Llr-Vt-Y9r" secondAttribute="bottom" constant="30" id="QqB-eq-cgv"/>
+                                            <constraint firstItem="Llr-Vt-Y9r" firstAttribute="leading" secondItem="lpU-XW-Xbv" secondAttribute="leading" constant="10" id="QrV-80-itq"/>
+                                            <constraint firstAttribute="trailing" secondItem="Pq1-ZZ-dRF" secondAttribute="trailing" id="Vca-qG-937"/>
+                                            <constraint firstItem="bu0-fU-6Hp" firstAttribute="top" secondItem="xBn-yw-2iS" secondAttribute="bottom" constant="30" id="cd7-Zx-dTH"/>
+                                            <constraint firstItem="Pq1-ZZ-dRF" firstAttribute="top" secondItem="bu0-fU-6Hp" secondAttribute="bottom" constant="30" id="r2Q-3o-EKl"/>
+                                            <constraint firstAttribute="trailing" secondItem="xBn-yw-2iS" secondAttribute="trailing" constant="10" id="rop-Vh-hpw"/>
+                                            <constraint firstItem="xBn-yw-2iS" firstAttribute="top" secondItem="hct-Kb-UZI" secondAttribute="bottom" constant="40" id="vr0-mq-AXh"/>
+                                            <constraint firstAttribute="trailing" secondItem="Llr-Vt-Y9r" secondAttribute="trailing" constant="10" id="wPB-xJ-GFh"/>
+                                            <constraint firstItem="Pq1-ZZ-dRF" firstAttribute="leading" secondItem="lpU-XW-Xbv" secondAttribute="leading" id="wUb-S4-L9X"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="lpU-XW-Xbv" secondAttribute="bottom" id="2do-PZ-I7U"/>
+                                    <constraint firstItem="lpU-XW-Xbv" firstAttribute="width" secondItem="iNm-nL-SV9" secondAttribute="width" id="A1E-Il-jFt"/>
+                                    <constraint firstItem="lpU-XW-Xbv" firstAttribute="leading" secondItem="iNm-nL-SV9" secondAttribute="leading" id="EHd-FW-O0U"/>
+                                    <constraint firstAttribute="trailing" secondItem="lpU-XW-Xbv" secondAttribute="trailing" id="GCU-3L-KJK"/>
+                                    <constraint firstItem="lpU-XW-Xbv" firstAttribute="top" secondItem="iNm-nL-SV9" secondAttribute="top" id="HjA-xt-5xZ"/>
+                                    <constraint firstItem="lpU-XW-Xbv" firstAttribute="height" secondItem="iNm-nL-SV9" secondAttribute="height" multiplier="2.9985" priority="250" id="WQW-iF-fp9"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="Wjg-Xx-sIv"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="Raf-CN-fDR"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iNm-nL-SV9" firstAttribute="top" secondItem="8BO-SW-loy" secondAttribute="top" id="9bW-ms-Dyg"/>
+                            <constraint firstItem="iNm-nL-SV9" firstAttribute="bottom" secondItem="8BO-SW-loy" secondAttribute="bottom" constant="49" id="L46-qg-hTc"/>
+                            <constraint firstItem="8BO-SW-loy" firstAttribute="trailing" secondItem="iNm-nL-SV9" secondAttribute="trailing" id="mCq-o5-aIT"/>
+                            <constraint firstItem="iNm-nL-SV9" firstAttribute="leading" secondItem="8BO-SW-loy" secondAttribute="leading" id="yB7-SL-8Fx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8BO-SW-loy"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CAUTIONS" image="hand.raised.slash" catalog="system" id="kk5-wf-3wI">
+                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="infobutton" destination="Pq1-ZZ-dRF" id="hRT-JT-gT5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O9W-e6-4eR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2137" y="688"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cdcprevention" width="948" height="1230"/>
+        <image name="cdcsympton" width="952" height="1236"/>
+        <image name="hand.raised.slash" catalog="system" width="128" height="128"/>
+    </resources>
+</document>

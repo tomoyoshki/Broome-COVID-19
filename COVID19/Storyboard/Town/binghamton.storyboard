@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2hq-0T-cIK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Binghamtonview-->
+        <scene sceneID="SCM-GM-CBn">
+            <objects>
+                <viewController storyboardIdentifier="binghamtonview" id="2hq-0T-cIK" customClass="binghamtonview" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Rh-Lw-Rp8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Town of Binghamton" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="vQ9-x4-7H0">
+                                <rect key="frame" x="0.0" y="194" width="414" height="48"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="40"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="AGd-hf-Jm1">
+                                <rect key="frame" x="0.0" y="264" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City of Binghamton" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="CCo-RN-Mnf">
+                                <rect key="frame" x="0.0" y="386" width="414" height="48"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="40"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="2ee-YJ-ZqM">
+                                <rect key="frame" x="0.0" y="456" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cumulative Confirmed Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="GPc-cK-eWj">
+                                <rect key="frame" x="0.0" y="305" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cumulative Confirmed Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="eU7-zK-4N4">
+                                <rect key="frame" x="0.0" y="497" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2ee-YJ-ZqM" firstAttribute="trailing" secondItem="pfi-Ro-2bD" secondAttribute="trailing" id="48H-Xp-NA1"/>
+                            <constraint firstItem="pfi-Ro-2bD" firstAttribute="trailing" secondItem="GPc-cK-eWj" secondAttribute="trailing" id="5rJ-BU-sJf"/>
+                            <constraint firstItem="GPc-cK-eWj" firstAttribute="leading" secondItem="0Rh-Lw-Rp8" secondAttribute="leading" id="A8o-W5-0Mz"/>
+                            <constraint firstItem="vQ9-x4-7H0" firstAttribute="trailing" secondItem="pfi-Ro-2bD" secondAttribute="trailing" id="BIc-6N-vlq"/>
+                            <constraint firstItem="GPc-cK-eWj" firstAttribute="top" secondItem="AGd-hf-Jm1" secondAttribute="bottom" constant="10" id="EJd-Wd-s1k"/>
+                            <constraint firstItem="vQ9-x4-7H0" firstAttribute="leading" secondItem="pfi-Ro-2bD" secondAttribute="leading" id="Iul-3r-xST"/>
+                            <constraint firstItem="CCo-RN-Mnf" firstAttribute="trailing" secondItem="pfi-Ro-2bD" secondAttribute="trailing" id="Mlk-7g-Fsh"/>
+                            <constraint firstAttribute="trailing" secondItem="eU7-zK-4N4" secondAttribute="trailing" id="NmJ-hX-o87"/>
+                            <constraint firstItem="AGd-hf-Jm1" firstAttribute="leading" secondItem="pfi-Ro-2bD" secondAttribute="leading" id="R1e-z0-7yR"/>
+                            <constraint firstItem="AGd-hf-Jm1" firstAttribute="trailing" secondItem="pfi-Ro-2bD" secondAttribute="trailing" id="RUL-bs-dHP"/>
+                            <constraint firstItem="CCo-RN-Mnf" firstAttribute="top" secondItem="GPc-cK-eWj" secondAttribute="bottom" constant="50" id="T5o-xi-HUY"/>
+                            <constraint firstItem="eU7-zK-4N4" firstAttribute="leading" secondItem="pfi-Ro-2bD" secondAttribute="leading" id="T9a-ny-R8F"/>
+                            <constraint firstItem="2ee-YJ-ZqM" firstAttribute="top" secondItem="CCo-RN-Mnf" secondAttribute="bottom" constant="22" id="U2c-xK-xii"/>
+                            <constraint firstItem="eU7-zK-4N4" firstAttribute="top" secondItem="2ee-YJ-ZqM" secondAttribute="bottom" constant="10" id="aun-TU-oWE"/>
+                            <constraint firstItem="CCo-RN-Mnf" firstAttribute="leading" secondItem="pfi-Ro-2bD" secondAttribute="leading" id="dtf-df-4Gm"/>
+                            <constraint firstItem="AGd-hf-Jm1" firstAttribute="top" secondItem="vQ9-x4-7H0" secondAttribute="bottom" constant="22" id="g4S-bC-0yc"/>
+                            <constraint firstItem="vQ9-x4-7H0" firstAttribute="top" secondItem="pfi-Ro-2bD" secondAttribute="top" constant="150" id="gwP-iM-gkv"/>
+                            <constraint firstItem="vQ9-x4-7H0" firstAttribute="leading" secondItem="pfi-Ro-2bD" secondAttribute="leading" id="hFQ-x7-n18"/>
+                            <constraint firstItem="vQ9-x4-7H0" firstAttribute="trailing" secondItem="pfi-Ro-2bD" secondAttribute="trailing" id="imL-jd-9eI"/>
+                            <constraint firstItem="2ee-YJ-ZqM" firstAttribute="leading" secondItem="pfi-Ro-2bD" secondAttribute="leading" id="xuY-vd-Uwu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pfi-Ro-2bD"/>
+                    </view>
+                    <connections>
+                        <outlet property="cityconfirmed" destination="2ee-YJ-ZqM" id="QwL-D1-3r9"/>
+                        <outlet property="citycumulative" destination="eU7-zK-4N4" id="BMt-gU-QhA"/>
+                        <outlet property="townconfirmed" destination="AGd-hf-Jm1" id="RIi-2J-gbR"/>
+                        <outlet property="towncumulative" destination="GPc-cK-eWj" id="zDW-sE-BTt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="64b-sG-SFi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1791.304347826087" y="1790.625"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+</document>

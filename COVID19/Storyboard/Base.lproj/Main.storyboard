@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O3X-67-YU6">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.ttf">
+            <string>Raleway-Regular</string>
+        </array>
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Cautions-->
+        <scene sceneID="Uri-aY-zHb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Cautions" id="Iet-9E-49t" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="7ch-yv-q5o"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qzL-tu-Kea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1587" y="829"/>
+        </scene>
+        <!--map-->
+        <scene sceneID="ikL-8U-fHR">
+            <objects>
+                <viewControllerPlaceholder storyboardName="map" id="iuO-qo-dvT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="UJ8-fa-sEY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IEo-Iy-Tle" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="42" y="830"/>
+        </scene>
+        <!--contact-->
+        <scene sceneID="kke-Z0-5nv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="contact" id="Vd3-94-09x" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Uv7-mX-zIy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K5h-rc-2UE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="829"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="91F-iP-alx">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="KO4-Md-9lQ" customClass="ViewController" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0EC-tJ-Tku">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TEF-jL-QCN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rMU-on-eGd">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="2680"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BROOME COUNTY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="VbL-tU-s1e">
+                                                <rect key="frame" x="0.0" y="20" width="375" height="48.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="8cn-UP-2cF"/>
+                                                    <constraint firstAttribute="height" constant="48.329999999999998" id="QHf-xc-DLG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="40"/>
+                                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NEW YORK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="8xU-C5-WYw">
+                                                <rect key="frame" x="0.0" y="68.5" width="375" height="40"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="33"/>
+                                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mpp-bW-Yah">
+                                                <rect key="frame" x="90.5" y="113.5" width="194" height="197"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="194" id="HGa-zZ-3qn"/>
+                                                    <constraint firstAttribute="height" constant="197" id="Wud-cq-oGy"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView alpha="0.90000000000000002" contentMode="scaleToFill" axis="vertical" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="vKo-xp-c1b">
+                                                <rect key="frame" x="15" y="683.5" width="345" height="1297"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IJA-ph-AWP">
+                                                        <rect key="frame" x="0.0" y="0.0" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="BARKER">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="barker:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="dwM-Rj-jWh"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z4S-qe-rJd">
+                                                        <rect key="frame" x="0.0" y="66" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="BINGHAMTON">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="binghamton:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="DJ0-p0-JWD"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KP4-BJ-jPl">
+                                                        <rect key="frame" x="0.0" y="132" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="CHENANGO">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="chenango:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="hLb-Bj-2VH"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h6C-Cf-ffD">
+                                                        <rect key="frame" x="0.0" y="198" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="COLESVILLE">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="colesville:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="e6f-oU-VFh"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QEK-Av-Dzd">
+                                                        <rect key="frame" x="0.0" y="264" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="CONKLIN">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="conklin:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="jFT-TJ-LOs"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xXJ-ZS-gmg">
+                                                        <rect key="frame" x="0.0" y="330" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="DEPOSIT">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="deposit:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="Cfq-Ge-eu2"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s64-l5-Y96">
+                                                        <rect key="frame" x="0.0" y="396" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="DICKINSON">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="dickinson:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="q9x-jU-m1l"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ANS-zW-MYx">
+                                                        <rect key="frame" x="0.0" y="462" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="ENDICOTT">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="endicott:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="pu5-Ic-2cA"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rjy-Jd-8nq">
+                                                        <rect key="frame" x="0.0" y="528" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="FENTON">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="fenton:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="V1Z-yZ-Xzc"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4sC-P1-TYY">
+                                                        <rect key="frame" x="0.0" y="594" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="JOHNSON CITY">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="johnsoncity:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="2qR-et-ccw"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Wg-X9-Cm6">
+                                                        <rect key="frame" x="0.0" y="660" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="KIRKWOOD">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="kirkwood:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="IiR-IE-hNK"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rjx-no-fkK">
+                                                        <rect key="frame" x="0.0" y="726" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="LISLE">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="lisle:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="4Lf-Gb-eYY"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v7Q-fi-Rhz">
+                                                        <rect key="frame" x="0.0" y="792" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="MAINE">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="maine:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="ObL-k0-iRy"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M7S-RM-KVp">
+                                                        <rect key="frame" x="0.0" y="858" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="NANTICOKE">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="nanticote:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="R8f-zl-TCa"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J8i-Xy-kvN">
+                                                        <rect key="frame" x="0.0" y="924" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="SANFORD">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="sanford:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="h01-sR-oYw"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KjZ-QG-sGN">
+                                                        <rect key="frame" x="0.0" y="990" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="TRIANGLE">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="triangle:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="MbR-xe-xVC"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vpf-LC-Rmf">
+                                                        <rect key="frame" x="0.0" y="1056" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="UNION">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="union:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="SST-IQ-xH0"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a6I-lu-8Du">
+                                                        <rect key="frame" x="0.0" y="1122" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="VESTAL">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="vestal:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="6Ne-hy-6Tw"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="osO-Rc-4we">
+                                                        <rect key="frame" x="0.0" y="1188" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="WHITNEY POINT">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="whitneypoint:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="EdQ-MC-8yZ"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jvs-uG-wrT">
+                                                        <rect key="frame" x="0.0" y="1254" width="345" height="43"/>
+                                                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="26"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="WINDSOR">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="windsor:" destination="KO4-Md-9lQ" eventType="touchUpInside" id="g5N-Gf-iX4"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0L-rb-rPU" userLabel="Container">
+                                                <rect key="frame" x="0.0" y="372" width="375" height="246"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="246" id="9Fh-fO-7eB"/>
+                                                </constraints>
+                                                <connections>
+                                                    <segue destination="OZV-ke-cbt" kind="embed" id="Voh-wD-gBB"/>
+                                                </connections>
+                                            </containerView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cld-Tc-CJN">
+                                                <rect key="frame" x="10" y="618" width="355" height="20"/>
+                                                <string key="text">Please check your Internet connection
+</string>
+                                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4u-1R-QlH">
+                                                <rect key="frame" x="10" y="648" width="355" height="15.5"/>
+                                                <string key="text">Please note these numbers are frequently changing.
+
+</string>
+                                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="13"/>
+                                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In Partnership with Broome County" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="TNS-cD-RHw">
+                                                <rect key="frame" x="0.0" y="330.5" width="375" height="21.5"/>
+                                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="vKo-xp-c1b" secondAttribute="trailing" constant="15" id="0Y7-4v-ebX"/>
+                                            <constraint firstItem="VbL-tU-s1e" firstAttribute="leading" secondItem="rMU-on-eGd" secondAttribute="leading" id="0bt-vO-zsB"/>
+                                            <constraint firstItem="L4u-1R-QlH" firstAttribute="leading" secondItem="rMU-on-eGd" secondAttribute="leading" constant="10" id="2Eg-Oh-itg"/>
+                                            <constraint firstItem="vKo-xp-c1b" firstAttribute="leading" secondItem="rMU-on-eGd" secondAttribute="leading" constant="15" id="9LB-Fk-vkE"/>
+                                            <constraint firstItem="Cld-Tc-CJN" firstAttribute="leading" secondItem="rMU-on-eGd" secondAttribute="leading" constant="10" id="AuO-iS-vZe"/>
+                                            <constraint firstItem="8xU-C5-WYw" firstAttribute="top" secondItem="VbL-tU-s1e" secondAttribute="bottom" id="Hu2-vl-umn"/>
+                                            <constraint firstAttribute="trailing" secondItem="L4u-1R-QlH" secondAttribute="trailing" constant="10" id="KUe-sD-kPL"/>
+                                            <constraint firstItem="e0L-rb-rPU" firstAttribute="leading" secondItem="rMU-on-eGd" secondAttribute="leading" id="Qu0-Pd-SrO"/>
+                                            <constraint firstAttribute="trailing" secondItem="VbL-tU-s1e" secondAttribute="trailing" id="USE-JE-BVQ"/>
+                                            <constraint firstItem="8xU-C5-WYw" firstAttribute="leading" secondItem="rMU-on-eGd" secondAttribute="leading" id="UeM-2W-eyT"/>
+                                            <constraint firstItem="vKo-xp-c1b" firstAttribute="top" secondItem="L4u-1R-QlH" secondAttribute="bottom" constant="20" id="bwC-cG-t6W"/>
+                                            <constraint firstItem="Cld-Tc-CJN" firstAttribute="top" secondItem="e0L-rb-rPU" secondAttribute="bottom" id="d21-lM-szy"/>
+                                            <constraint firstItem="mpp-bW-Yah" firstAttribute="top" secondItem="8xU-C5-WYw" secondAttribute="bottom" constant="5" id="fTF-5c-NMd"/>
+                                            <constraint firstItem="TNS-cD-RHw" firstAttribute="top" secondItem="mpp-bW-Yah" secondAttribute="bottom" constant="20" id="fzH-fD-Qph"/>
+                                            <constraint firstAttribute="trailing" secondItem="e0L-rb-rPU" secondAttribute="trailing" id="iBA-U7-Rl5"/>
+                                            <constraint firstItem="e0L-rb-rPU" firstAttribute="top" secondItem="TNS-cD-RHw" secondAttribute="bottom" constant="20" id="m0Z-VQ-7OX"/>
+                                            <constraint firstAttribute="trailing" secondItem="Cld-Tc-CJN" secondAttribute="trailing" constant="10" id="nf7-LZ-Pwy"/>
+                                            <constraint firstItem="mpp-bW-Yah" firstAttribute="centerX" secondItem="rMU-on-eGd" secondAttribute="centerX" id="poT-cl-MRQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="8xU-C5-WYw" secondAttribute="trailing" id="r2q-fs-tXl"/>
+                                            <constraint firstItem="VbL-tU-s1e" firstAttribute="top" secondItem="rMU-on-eGd" secondAttribute="top" constant="20" id="rKO-gl-Xax"/>
+                                            <constraint firstItem="TNS-cD-RHw" firstAttribute="leading" secondItem="rMU-on-eGd" secondAttribute="leading" id="tqF-Y6-JZF"/>
+                                            <constraint firstItem="L4u-1R-QlH" firstAttribute="top" secondItem="Cld-Tc-CJN" secondAttribute="bottom" constant="10" id="udp-GM-Jtw"/>
+                                            <constraint firstAttribute="trailing" secondItem="TNS-cD-RHw" secondAttribute="trailing" id="xuo-dv-wcx"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="rMU-on-eGd" firstAttribute="top" secondItem="TEF-jL-QCN" secondAttribute="top" id="1RI-Vc-LG5"/>
+                                    <constraint firstItem="rMU-on-eGd" firstAttribute="width" secondItem="TEF-jL-QCN" secondAttribute="width" id="48h-CW-mZW"/>
+                                    <constraint firstItem="rMU-on-eGd" firstAttribute="leading" secondItem="TEF-jL-QCN" secondAttribute="leading" id="Cb3-mV-h4G"/>
+                                    <constraint firstItem="rMU-on-eGd" firstAttribute="height" secondItem="TEF-jL-QCN" secondAttribute="height" priority="250" constant="1380" id="gAc-1L-BXi"/>
+                                    <constraint firstAttribute="bottom" secondItem="rMU-on-eGd" secondAttribute="bottom" id="tLQ-fU-ypX"/>
+                                    <constraint firstAttribute="trailing" secondItem="rMU-on-eGd" secondAttribute="trailing" id="uO5-3v-XaQ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TEF-jL-QCN" firstAttribute="top" secondItem="yJn-iN-42s" secondAttribute="top" id="Gc2-nR-2fe"/>
+                            <constraint firstItem="TEF-jL-QCN" firstAttribute="trailing" secondItem="yJn-iN-42s" secondAttribute="trailing" id="Z8Y-H3-dO5"/>
+                            <constraint firstItem="TEF-jL-QCN" firstAttribute="leading" secondItem="yJn-iN-42s" secondAttribute="leading" id="hi1-Be-WTY"/>
+                            <constraint firstItem="TEF-jL-QCN" firstAttribute="bottom" secondItem="yJn-iN-42s" secondAttribute="bottom" constant="49" id="pv7-x1-hSQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yJn-iN-42s"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="Ngh-5l-gWZ"/>
+                    <size key="freeformSize" width="375" height="1300"/>
+                    <connections>
+                        <outlet property="barbutton" destination="IJA-ph-AWP" id="Gcy-xg-X5q"/>
+                        <outlet property="bingbutton" destination="Z4S-qe-rJd" id="kPq-0o-oFr"/>
+                        <outlet property="chbutton" destination="KP4-BJ-jPl" id="EKQ-7A-EcW"/>
+                        <outlet property="colebutton" destination="h6C-Cf-ffD" id="5cg-yY-adX"/>
+                        <outlet property="conbutton" destination="QEK-Av-Dzd" id="HaK-df-HS5"/>
+                        <outlet property="date" destination="Cld-Tc-CJN" id="Sot-Rz-6cT"/>
+                        <outlet property="depbutton" destination="xXJ-ZS-gmg" id="k6A-AQ-Ruy"/>
+                        <outlet property="dibutton" destination="s64-l5-Y96" id="j7k-nX-Scw"/>
+                        <outlet property="enbutton" destination="ANS-zW-MYx" id="h97-uH-Adi"/>
+                        <outlet property="fenbutton" destination="rjy-Jd-8nq" id="EH8-WU-PRQ"/>
+                        <outlet property="jsbutton" destination="4sC-P1-TYY" id="cKf-ez-wZ4"/>
+                        <outlet property="kirkbutton" destination="3Wg-X9-Cm6" id="tXC-ah-R6I"/>
+                        <outlet property="libutton" destination="rjx-no-fkK" id="oPP-p7-tPN"/>
+                        <outlet property="mainbutton" destination="v7Q-fi-Rhz" id="2RQ-s7-Jd2"/>
+                        <outlet property="nanbutton" destination="M7S-RM-KVp" id="ddc-pp-hCb"/>
+                        <outlet property="sanbutton" destination="J8i-Xy-kvN" id="9lv-sI-dTq"/>
+                        <outlet property="scrollView" destination="TEF-jL-QCN" id="gam-qf-viQ"/>
+                        <outlet property="tributton" destination="KjZ-QG-sGN" id="O0w-ds-VTx"/>
+                        <outlet property="unionbutton" destination="vpf-LC-Rmf" id="Fcv-eC-2XN"/>
+                        <outlet property="vebutton" destination="a6I-lu-8Du" id="A5C-wX-xVZ"/>
+                        <outlet property="whitneypoint" destination="osO-Rc-4we" id="9pK-QN-wKb"/>
+                        <outlet property="winbutton" destination="Jvs-uG-wrT" id="CJs-gf-dmW"/>
+                        <segue destination="l4B-7b-FCj" kind="showDetail" identifier="binghamton" id="7y7-fu-CL5"/>
+                        <segue destination="p0G-Rp-0Cq" kind="showDetail" identifier="union" id="3UA-e4-FUn"/>
+                        <segue destination="Qks-tS-SGS" kind="show" identifier="johnsoncity" id="tFV-cQ-2Z5"/>
+                        <segue destination="2cW-m5-Zey" kind="show" identifier="dickinson" id="yJf-EH-Stu"/>
+                        <segue destination="bpZ-Cx-iBd" kind="show" identifier="vestal" id="v03-kz-Zcj"/>
+                        <segue destination="Ivo-3m-0Gy" kind="show" identifier="endicott" id="70U-8O-FSh"/>
+                        <segue destination="lHN-XN-9Yh" kind="show" identifier="chenango" id="j8M-PC-2L3"/>
+                        <segue destination="0ph-8y-zOU" kind="show" identifier="kirkwood" id="yj4-iK-KoZ"/>
+                        <segue destination="iOo-GX-mt8" kind="show" identifier="maine" id="Iit-pd-c51"/>
+                        <segue destination="25Q-e7-xen" kind="show" identifier="nanticote" id="z2F-jr-7VQ"/>
+                        <segue destination="eyd-WP-cyU" kind="show" identifier="barker" id="baF-9n-9jZ"/>
+                        <segue destination="8rZ-46-0Yz" kind="show" identifier="fenton" id="qcY-cZ-JVE"/>
+                        <segue destination="0WH-rG-jSE" kind="show" identifier="lisle" id="yDb-Mx-1n1"/>
+                        <segue destination="ZZ3-7H-sCR" kind="show" identifier="windsor" id="VxO-vG-z35"/>
+                        <segue destination="QCq-ho-5g0" kind="show" identifier="triangle" id="L1k-Wy-KXb"/>
+                        <segue destination="wNp-Lw-DDu" kind="show" identifier="colesville" id="5rX-iW-9uw"/>
+                        <segue destination="36y-Zt-pNo" kind="show" identifier="sanford" id="ZZz-Y2-lJx"/>
+                        <segue destination="DyH-PE-9qy" kind="show" identifier="conklin" id="a3D-O8-V9g"/>
+                        <segue destination="08M-rK-zU2" kind="show" identifier="whitneypoint" id="AJv-wr-DPf"/>
+                        <segue destination="V7M-fk-6Ef" kind="show" identifier="deposit" id="E2R-Vk-3Ii"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oi3-f2-fnV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1255" y="1146"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ITe-ge-I8D">
+            <objects>
+                <tabBarController id="SHL-Ro-9SG" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="aQF-Qw-SDp"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HjB-ci-Dpv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="KO4-Md-9lQ" kind="relationship" relationship="viewControllers" id="6Em-Om-Nqy"/>
+                        <segue destination="iuO-qo-dvT" kind="relationship" relationship="viewControllers" id="hbI-9b-W3P"/>
+                        <segue destination="Vd3-94-09x" kind="relationship" relationship="viewControllers" id="f6U-ou-20y"/>
+                        <segue destination="Iet-9E-49t" kind="relationship" relationship="viewControllers" id="0Ot-l9-wO8"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yFZ-GD-l2z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="79" y="-43"/>
+        </scene>
+        <!--binghamtonview-->
+        <scene sceneID="c6W-mH-ZvC">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="binghamtonview" storyboardName="binghamton" referencedIdentifier="binghamtonview" id="l4B-7b-FCj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N0U-hb-r6v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1773" y="1876"/>
+        </scene>
+        <!--johnsoncity-->
+        <scene sceneID="rT9-D8-zX7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="johnsoncity" id="Qks-tS-SGS" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="U3O-Ws-kz7"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V0o-gl-isH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1751" y="1910"/>
+        </scene>
+        <!--Statsthree-->
+        <scene sceneID="qus-iq-FIU">
+            <objects>
+                <viewController storyboardIdentifier="statsthree" id="PdB-Pd-Y0N" customClass="statsthree" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LSm-PD-g7H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="246"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deaths" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5C-am-7H2">
+                                <rect key="frame" x="121" y="35" width="133.5" height="47"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="40"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" defersCurrentPageDisplay="YES" numberOfPages="3" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="p0e-1Y-JR0">
+                                <rect key="frame" x="168" y="0.0" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="no internet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6I-OV-VMH">
+                                <rect key="frame" x="52.5" y="87" width="270" height="73"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="60"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ift-zn-IDa">
+                                <rect key="frame" x="172.5" y="170" width="30" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="NEW-kO-HQ8"/>
+                                    <constraint firstAttribute="width" constant="30" id="cXV-yw-FW4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <color key="tintColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="icons8-refresh-144">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="refresher3:" destination="PdB-Pd-Y0N" eventType="touchUpInside" id="jnT-Ji-QYU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ift-zn-IDa" firstAttribute="top" secondItem="C6I-OV-VMH" secondAttribute="bottom" constant="10" id="4Rt-Sd-YC2"/>
+                            <constraint firstItem="p0e-1Y-JR0" firstAttribute="centerX" secondItem="cpQ-Fl-c1p" secondAttribute="centerX" id="9qv-AR-DqA"/>
+                            <constraint firstItem="C6I-OV-VMH" firstAttribute="top" secondItem="K5C-am-7H2" secondAttribute="bottom" constant="5" id="Lxg-H7-mIE"/>
+                            <constraint firstItem="C6I-OV-VMH" firstAttribute="leading" secondItem="cpQ-Fl-c1p" secondAttribute="leading" constant="52.5" id="Rdf-qB-0g1"/>
+                            <constraint firstItem="cpQ-Fl-c1p" firstAttribute="trailing" secondItem="C6I-OV-VMH" secondAttribute="trailing" constant="52.5" id="RzD-i8-JKo"/>
+                            <constraint firstItem="K5C-am-7H2" firstAttribute="centerX" secondItem="cpQ-Fl-c1p" secondAttribute="centerX" id="SUo-92-w3h"/>
+                            <constraint firstItem="ift-zn-IDa" firstAttribute="centerX" secondItem="cpQ-Fl-c1p" secondAttribute="centerX" id="gwj-7f-WcL"/>
+                            <constraint firstItem="p0e-1Y-JR0" firstAttribute="top" secondItem="cpQ-Fl-c1p" secondAttribute="top" id="hz1-VN-HF6"/>
+                            <constraint firstItem="K5C-am-7H2" firstAttribute="top" secondItem="cpQ-Fl-c1p" secondAttribute="top" constant="35" id="pET-r7-a7H"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cpQ-Fl-c1p"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="246"/>
+                    <connections>
+                        <outlet property="deaths" destination="C6I-OV-VMH" id="Ytg-YA-VFl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zNg-fg-nQn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2455" y="2310"/>
+        </scene>
+        <!--union-->
+        <scene sceneID="f8K-9l-b1b">
+            <objects>
+                <viewControllerPlaceholder storyboardName="union" id="p0G-Rp-0Cq" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Y15-Sl-f13"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4pW-6W-PHu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1722" y="2001"/>
+        </scene>
+        <!--dickinson-->
+        <scene sceneID="TEc-Sc-AoO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="dickinson" id="2cW-m5-Zey" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="SoW-R7-m1t"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wgk-p5-9K2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1612" y="2001"/>
+        </scene>
+        <!--vestal-->
+        <scene sceneID="WZI-mi-rXV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="vestal" id="bpZ-Cx-iBd" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="uhD-Qx-ZYg"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zzg-Iw-xeD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1346" y="1976"/>
+        </scene>
+        <!--endicott-->
+        <scene sceneID="dgP-MZ-9hg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="endicott" id="Ivo-3m-0Gy" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="qxW-qE-Xud"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCL-ui-CeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1297" y="2066"/>
+        </scene>
+        <!--chenango-->
+        <scene sceneID="CgT-ZO-LNl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="chenango" id="lHN-XN-9Yh" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xfJ-Lf-k3a"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="laU-YY-E2C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1206" y="2151"/>
+        </scene>
+        <!--conklin-->
+        <scene sceneID="kAb-QK-D70">
+            <objects>
+                <viewControllerPlaceholder storyboardName="conklin" id="DyH-PE-9qy" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="rpR-TY-8yO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rVV-hO-tAP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-946" y="2146"/>
+        </scene>
+        <!--Totalcase View Controller-->
+        <scene sceneID="3ys-mG-ufW">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="OZV-ke-cbt" customClass="totalcaseViewController" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R1V-8W-BZH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3116" y="1910"/>
+        </scene>
+        <!--Statsone-->
+        <scene sceneID="ndq-Y9-g1J">
+            <objects>
+                <viewController storyboardIdentifier="statsone" id="llh-BX-UKI" customClass="statsone" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qM1-K5-Mca">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="246"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Cases" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GE6-gg-5Zd">
+                                <rect key="frame" x="0.0" y="35" width="375" height="47"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="40"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" defersCurrentPageDisplay="YES" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="1Vm-ND-BS5">
+                                <rect key="frame" x="168" y="0.0" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="no internet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEZ-ft-fAA">
+                                <rect key="frame" x="52.5" y="87" width="270" height="73"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="60"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ah-ku-7qC">
+                                <rect key="frame" x="172.5" y="170" width="30" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Bl8-CW-4EH"/>
+                                    <constraint firstAttribute="width" constant="30" id="ZYg-lG-baA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <color key="tintColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="icons8-refresh-144">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="refresher:" destination="llh-BX-UKI" eventType="touchUpInside" id="VVK-R0-LhN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GE6-gg-5Zd" firstAttribute="centerX" secondItem="56e-Rj-VVT" secondAttribute="centerX" id="1NR-HM-2AM"/>
+                            <constraint firstItem="56e-Rj-VVT" firstAttribute="trailing" secondItem="UEZ-ft-fAA" secondAttribute="trailing" constant="52.5" id="3UI-re-p1U"/>
+                            <constraint firstItem="UEZ-ft-fAA" firstAttribute="leading" secondItem="56e-Rj-VVT" secondAttribute="leading" constant="52.5" id="Av3-en-DdN"/>
+                            <constraint firstItem="1Vm-ND-BS5" firstAttribute="top" secondItem="56e-Rj-VVT" secondAttribute="top" id="JT6-lG-cbo"/>
+                            <constraint firstItem="UEZ-ft-fAA" firstAttribute="top" secondItem="GE6-gg-5Zd" secondAttribute="bottom" constant="5" id="KHp-3g-5mP"/>
+                            <constraint firstItem="1ah-ku-7qC" firstAttribute="centerX" secondItem="56e-Rj-VVT" secondAttribute="centerX" id="aZP-U6-7C4"/>
+                            <constraint firstItem="56e-Rj-VVT" firstAttribute="trailing" secondItem="GE6-gg-5Zd" secondAttribute="trailing" id="ceS-09-hjp"/>
+                            <constraint firstItem="GE6-gg-5Zd" firstAttribute="top" secondItem="56e-Rj-VVT" secondAttribute="top" constant="35" id="chz-u6-iDM"/>
+                            <constraint firstItem="1Vm-ND-BS5" firstAttribute="centerX" secondItem="56e-Rj-VVT" secondAttribute="centerX" id="dB5-wK-MqW"/>
+                            <constraint firstItem="1ah-ku-7qC" firstAttribute="top" secondItem="UEZ-ft-fAA" secondAttribute="bottom" constant="10" id="jub-UR-14H"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="56e-Rj-VVT"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="246"/>
+                    <connections>
+                        <outlet property="confirmed" destination="UEZ-ft-fAA" id="4ca-zc-asL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y2r-sQ-4DS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3778.4000000000001" y="2309.1454272863571"/>
+        </scene>
+        <!--Statstwo-->
+        <scene sceneID="2ha-Jj-ASG">
+            <objects>
+                <viewController storyboardIdentifier="statstwo" id="WXl-TA-ma2" customClass="statstwo" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IGv-1l-S1q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="246"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recovered" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CU2-Rj-8QY">
+                                <rect key="frame" x="86" y="35" width="203.5" height="47"/>
+                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="40"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" hidesForSinglePage="YES" defersCurrentPageDisplay="YES" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="rVf-kH-MEz">
+                                <rect key="frame" x="168" y="0.0" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="no internet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ktL-ia-SzJ">
+                                <rect key="frame" x="52.5" y="87" width="270" height="73"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="60"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYT-sT-4mc">
+                                <rect key="frame" x="172.5" y="170" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="7XI-H3-2Ai"/>
+                                    <constraint firstAttribute="height" constant="30" id="aNw-Z0-n5W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="46"/>
+                                <color key="tintColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="icons8-refresh-144">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="refresher1:" destination="WXl-TA-ma2" eventType="touchUpInside" id="PnA-hI-YNh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ktL-ia-SzJ" firstAttribute="leading" secondItem="emX-pn-0K7" secondAttribute="leading" constant="52.5" id="BUh-qg-mB1"/>
+                            <constraint firstItem="rVf-kH-MEz" firstAttribute="centerX" secondItem="emX-pn-0K7" secondAttribute="centerX" id="GQM-Ze-Rpx"/>
+                            <constraint firstItem="CU2-Rj-8QY" firstAttribute="centerX" secondItem="emX-pn-0K7" secondAttribute="centerX" id="IJ5-JW-Cf5"/>
+                            <constraint firstItem="CU2-Rj-8QY" firstAttribute="top" secondItem="emX-pn-0K7" secondAttribute="top" constant="35" id="LIJ-r1-sXD"/>
+                            <constraint firstItem="UYT-sT-4mc" firstAttribute="centerX" secondItem="emX-pn-0K7" secondAttribute="centerX" id="NVY-tI-EFC"/>
+                            <constraint firstItem="UYT-sT-4mc" firstAttribute="top" secondItem="ktL-ia-SzJ" secondAttribute="bottom" constant="10" id="RVp-XM-bsi"/>
+                            <constraint firstItem="rVf-kH-MEz" firstAttribute="top" secondItem="emX-pn-0K7" secondAttribute="top" id="eKv-JK-8h1"/>
+                            <constraint firstItem="emX-pn-0K7" firstAttribute="trailing" secondItem="ktL-ia-SzJ" secondAttribute="trailing" constant="52.5" id="gVs-IL-MTA"/>
+                            <constraint firstItem="ktL-ia-SzJ" firstAttribute="top" secondItem="CU2-Rj-8QY" secondAttribute="bottom" constant="5" id="x2L-EQ-ggI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="emX-pn-0K7"/>
+                    </view>
+                    <size key="freeformSize" width="375" height="246"/>
+                    <connections>
+                        <outlet property="recovered" destination="ktL-ia-SzJ" id="VYl-7q-j9v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q48-Sf-RMw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3116" y="2310"/>
+        </scene>
+        <!--barker-->
+        <scene sceneID="PWw-dJ-UR8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="barker" id="eyd-WP-cyU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mbS-fn-MUO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPO-Ge-9hf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-477" y="1873"/>
+        </scene>
+        <!--colesville-->
+        <scene sceneID="RJP-k1-bQ3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="colesville" id="wNp-Lw-DDu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xIG-j0-XWc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="40d-SI-zxQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-487" y="2182"/>
+        </scene>
+        <!--maine-->
+        <scene sceneID="zuG-kf-AXg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="maine" id="iOo-GX-mt8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ydl-nT-aro"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x8i-7m-z34" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1159" y="2039"/>
+        </scene>
+        <!--kirkwood-->
+        <scene sceneID="DON-wm-mGU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="kirkwood" id="0ph-8y-zOU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="QEU-UR-nXX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rjY-b6-o0b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1517" y="2090"/>
+        </scene>
+        <!--lisle-->
+        <scene sceneID="CEW-eL-wGC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="lisle" id="0WH-rG-jSE" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mHB-6A-VLa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="paA-tI-nTk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-478" y="2004"/>
+        </scene>
+        <!--windsor-->
+        <scene sceneID="SEC-m8-haE">
+            <objects>
+                <viewControllerPlaceholder storyboardName="windsor" id="ZZ3-7H-sCR" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="z4b-7f-RGE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iOV-sT-gTE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-479" y="2069"/>
+        </scene>
+        <!--nanticote-->
+        <scene sceneID="4tM-ip-Psv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="nanticote" id="25Q-e7-xen" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="CyR-Nr-74s"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T2d-bC-CpK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-453" y="1751"/>
+        </scene>
+        <!--triangle-->
+        <scene sceneID="dp5-lD-uH0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="triangle" id="QCq-ho-5g0" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="23h-PE-60v"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHC-Lv-zaO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-473" y="2133"/>
+        </scene>
+        <!--sanford-->
+        <scene sceneID="JKK-tu-5rw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="sanford" id="36y-Zt-pNo" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="DQe-my-2A9"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q8W-KF-eik" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-473" y="2271"/>
+        </scene>
+        <!--fenton-->
+        <scene sceneID="OIs-NR-u3O">
+            <objects>
+                <viewControllerPlaceholder storyboardName="fenton" id="8rZ-46-0Yz" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="3qA-i3-Uw4"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b9s-ud-cAe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-477" y="1938"/>
+        </scene>
+        <!--whiteneypoint-->
+        <scene sceneID="MHC-q0-RBF">
+            <objects>
+                <viewControllerPlaceholder storyboardName="whiteneypoint" id="08M-rK-zU2" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Xfx-yj-6ds"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jB1-hs-qFb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-830" y="2203"/>
+        </scene>
+        <!--deposit-->
+        <scene sceneID="mfZ-wQ-EJo">
+            <objects>
+                <viewControllerPlaceholder storyboardName="deposit" id="V7M-fk-6Ef" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Y1k-b5-3T5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EG5-eX-9Ei" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-672" y="1387"/>
+        </scene>
+        <!--Smart-->
+        <scene sceneID="qYV-zQ-4yu">
+            <objects>
+                <viewController id="O3X-67-YU6" customClass="smart" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bhu-8L-bNP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="NKz-ud-G1C">
+                                <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="gl3-tI-Hhn"/>
+                                    <constraint firstAttribute="height" constant="300" id="toS-FJ-Vic"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NKz-ud-G1C" firstAttribute="centerX" secondItem="4P6-3z-SS9" secondAttribute="centerX" id="W5i-rN-LqV"/>
+                            <constraint firstItem="NKz-ud-G1C" firstAttribute="centerY" secondItem="4P6-3z-SS9" secondAttribute="centerY" id="wHE-OX-8So"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4P6-3z-SS9"/>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="NKz-ud-G1C" id="Yk5-hS-Wiq"/>
+                        <segue destination="SHL-Ro-9SG" kind="presentation" identifier="launch" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="PeC-KV-ToN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iq0-aE-zA2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-946" y="-129"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <resources>
+        <image name="Logo" width="944" height="943"/>
+        <image name="icons8-refresh-144" width="120" height="120"/>
+    </resources>
+</document>

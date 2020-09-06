@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jrf-Tn-KYe">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vestal-->
+        <scene sceneID="T5x-7b-lff">
+            <objects>
+                <viewController id="jrf-Tn-KYe" customClass="vestal" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EBP-1H-o62">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Town of Vestal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axo-pN-6aU">
+                                <rect key="frame" x="0.0" y="194" width="414" height="48"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="40"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bWY-kk-FoX">
+                                <rect key="frame" x="0.0" y="264" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cumulative Confirmed Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GU8-3G-8Nm">
+                                <rect key="frame" x="0.0" y="305" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="axo-pN-6aU" firstAttribute="top" secondItem="pTL-pT-9ci" secondAttribute="top" constant="150" id="LxA-uc-dR1"/>
+                            <constraint firstItem="bWY-kk-FoX" firstAttribute="top" secondItem="axo-pN-6aU" secondAttribute="bottom" constant="22" id="TBk-3d-x1z"/>
+                            <constraint firstItem="axo-pN-6aU" firstAttribute="trailing" secondItem="pTL-pT-9ci" secondAttribute="trailing" id="Tck-UK-RC3"/>
+                            <constraint firstItem="bWY-kk-FoX" firstAttribute="trailing" secondItem="pTL-pT-9ci" secondAttribute="trailing" id="cdD-Ay-VfF"/>
+                            <constraint firstItem="GU8-3G-8Nm" firstAttribute="leading" secondItem="EBP-1H-o62" secondAttribute="leading" id="h1O-b9-XX0"/>
+                            <constraint firstItem="bWY-kk-FoX" firstAttribute="leading" secondItem="pTL-pT-9ci" secondAttribute="leading" id="hRH-Q3-sBW"/>
+                            <constraint firstItem="GU8-3G-8Nm" firstAttribute="top" secondItem="bWY-kk-FoX" secondAttribute="bottom" constant="10" id="iot-LX-i6n"/>
+                            <constraint firstItem="axo-pN-6aU" firstAttribute="leading" secondItem="pTL-pT-9ci" secondAttribute="leading" id="r0A-sz-beM"/>
+                            <constraint firstItem="pTL-pT-9ci" firstAttribute="trailing" secondItem="GU8-3G-8Nm" secondAttribute="trailing" id="vbb-Lk-BqV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pTL-pT-9ci"/>
+                    </view>
+                    <connections>
+                        <outlet property="confirmedCase" destination="bWY-kk-FoX" id="zgJ-pH-zLR"/>
+                        <outlet property="cumulativecases" destination="GU8-3G-8Nm" id="k4i-t6-1GG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WUK-RL-Kx8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-190" y="90"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yhW-6j-HW1">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Triangle-->
+        <scene sceneID="YWU-ZQ-mwc">
+            <objects>
+                <viewController id="yhW-6j-HW1" customClass="triangle" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d1U-Ly-RQg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Town of  Triangle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ju-4N-qr4">
+                                <rect key="frame" x="0.0" y="194" width="414" height="48"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="40"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEk-Kf-6gP">
+                                <rect key="frame" x="0.0" y="264" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cumulative Confirmed Cases" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4B-1g-26B">
+                                <rect key="frame" x="0.0" y="305" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="r4B-1g-26B" firstAttribute="trailing" secondItem="LOh-Ib-r85" secondAttribute="trailing" id="FMD-Jb-vbB"/>
+                            <constraint firstItem="rEk-Kf-6gP" firstAttribute="leading" secondItem="d1U-Ly-RQg" secondAttribute="leading" id="G9j-zV-Fci"/>
+                            <constraint firstItem="LOh-Ib-r85" firstAttribute="trailing" secondItem="2ju-4N-qr4" secondAttribute="trailing" id="OfB-vq-MsO"/>
+                            <constraint firstItem="rEk-Kf-6gP" firstAttribute="top" secondItem="2ju-4N-qr4" secondAttribute="bottom" constant="22" id="c99-un-Uxz"/>
+                            <constraint firstItem="2ju-4N-qr4" firstAttribute="leading" secondItem="d1U-Ly-RQg" secondAttribute="leading" id="fUR-cN-4xM"/>
+                            <constraint firstItem="LOh-Ib-r85" firstAttribute="trailing" secondItem="rEk-Kf-6gP" secondAttribute="trailing" id="gSB-5c-wSG"/>
+                            <constraint firstItem="2ju-4N-qr4" firstAttribute="top" secondItem="LOh-Ib-r85" secondAttribute="top" constant="150" id="lZZ-sC-P06"/>
+                            <constraint firstItem="r4B-1g-26B" firstAttribute="top" secondItem="rEk-Kf-6gP" secondAttribute="bottom" constant="10" id="q2i-gO-imi"/>
+                            <constraint firstItem="r4B-1g-26B" firstAttribute="leading" secondItem="LOh-Ib-r85" secondAttribute="leading" id="q3c-3d-9Pa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LOh-Ib-r85"/>
+                    </view>
+                    <connections>
+                        <outlet property="confirmedCase" destination="rEk-Kf-6gP" id="RHF-Ig-Vb6"/>
+                        <outlet property="cumulativecases" destination="r4B-1g-26B" id="Cld-2S-YcY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Amu-e5-xBR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="294" y="-218"/>
+        </scene>
+    </scenes>
+</document>

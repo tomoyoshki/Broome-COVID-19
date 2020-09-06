@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6AG-95-8Jt">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Johnsoncity-->
+        <scene sceneID="abG-U0-XKC">
+            <objects>
+                <viewController storyboardIdentifier="johnsoncity" id="6AG-95-8Jt" customClass="johnsoncity" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hmh-3u-cFx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="QB6-aN-bPm">
+                                <rect key="frame" x="0.0" y="264" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Village of Johnson City" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="3jj-VF-WbZ">
+                                <rect key="frame" x="0.0" y="194" width="414" height="48"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="40"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cumulative Confirmed Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="pWE-fe-IJC">
+                                <rect key="frame" x="0.0" y="305" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gKD-Zk-e1y" firstAttribute="trailing" secondItem="pWE-fe-IJC" secondAttribute="trailing" id="1Ys-tC-yfL"/>
+                            <constraint firstItem="pWE-fe-IJC" firstAttribute="leading" secondItem="hmh-3u-cFx" secondAttribute="leading" id="85L-vt-o0X"/>
+                            <constraint firstItem="3jj-VF-WbZ" firstAttribute="leading" secondItem="gKD-Zk-e1y" secondAttribute="leading" id="I8d-TV-Dws"/>
+                            <constraint firstItem="QB6-aN-bPm" firstAttribute="leading" secondItem="gKD-Zk-e1y" secondAttribute="leading" id="J8J-PL-KiI"/>
+                            <constraint firstItem="QB6-aN-bPm" firstAttribute="top" secondItem="3jj-VF-WbZ" secondAttribute="bottom" constant="22" id="N9M-pI-M8L"/>
+                            <constraint firstItem="QB6-aN-bPm" firstAttribute="trailing" secondItem="gKD-Zk-e1y" secondAttribute="trailing" id="Qx4-mG-7Fr"/>
+                            <constraint firstItem="pWE-fe-IJC" firstAttribute="top" secondItem="QB6-aN-bPm" secondAttribute="bottom" constant="10" id="g5E-L8-2K2"/>
+                            <constraint firstItem="3jj-VF-WbZ" firstAttribute="trailing" secondItem="gKD-Zk-e1y" secondAttribute="trailing" id="pUP-1c-dyL"/>
+                            <constraint firstItem="3jj-VF-WbZ" firstAttribute="top" secondItem="gKD-Zk-e1y" secondAttribute="top" constant="150" id="zj7-46-U4A"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gKD-Zk-e1y"/>
+                    </view>
+                    <connections>
+                        <outlet property="confirmed" destination="QB6-aN-bPm" id="gHU-Vf-WWB"/>
+                        <outlet property="cumulativecases" destination="pWE-fe-IJC" id="VOq-30-piz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xOv-H8-A7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="83"/>
+        </scene>
+    </scenes>
+</document>

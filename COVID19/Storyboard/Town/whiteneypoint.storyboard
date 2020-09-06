@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UZB-kL-wdQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Whitneypoint-->
+        <scene sceneID="zK8-Ha-cCu">
+            <objects>
+                <viewController id="UZB-kL-wdQ" customClass="whitneypoint" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3yt-76-Jaf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Village of Whitney Point" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="Scq-oI-CDJ">
+                                <rect key="frame" x="0.0" y="194" width="414" height="48"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="40"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="qwl-rh-S1W">
+                                <rect key="frame" x="0.0" y="264" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cumulative Confirmed Cases: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ru7-W9-iat">
+                                <rect key="frame" x="0.0" y="305" width="414" height="31"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="25"/>
+                                <color key="textColor" red="0.13973873849999999" green="0.16100969909999999" blue="0.30622798200000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Scq-oI-CDJ" firstAttribute="leading" secondItem="Fus-Jx-0Af" secondAttribute="leading" id="2UG-dK-9GR"/>
+                            <constraint firstItem="ru7-W9-iat" firstAttribute="leading" secondItem="3yt-76-Jaf" secondAttribute="leading" id="5hi-Aw-fIA"/>
+                            <constraint firstItem="qwl-rh-S1W" firstAttribute="trailing" secondItem="Fus-Jx-0Af" secondAttribute="trailing" id="5nQ-h4-7MQ"/>
+                            <constraint firstItem="Scq-oI-CDJ" firstAttribute="trailing" secondItem="Fus-Jx-0Af" secondAttribute="trailing" id="BEN-yB-IEA"/>
+                            <constraint firstItem="qwl-rh-S1W" firstAttribute="top" secondItem="Scq-oI-CDJ" secondAttribute="bottom" constant="22" id="Gu3-79-ejO"/>
+                            <constraint firstItem="qwl-rh-S1W" firstAttribute="leading" secondItem="Fus-Jx-0Af" secondAttribute="leading" id="T6N-fK-xdI"/>
+                            <constraint firstItem="ru7-W9-iat" firstAttribute="top" secondItem="qwl-rh-S1W" secondAttribute="bottom" constant="10" id="UjM-zQ-IL0"/>
+                            <constraint firstItem="Scq-oI-CDJ" firstAttribute="top" secondItem="Fus-Jx-0Af" secondAttribute="top" constant="150" id="aUf-sl-Soi"/>
+                            <constraint firstItem="Fus-Jx-0Af" firstAttribute="trailing" secondItem="ru7-W9-iat" secondAttribute="trailing" id="bIE-f6-e7m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fus-Jx-0Af"/>
+                    </view>
+                    <connections>
+                        <outlet property="confirmedCase" destination="qwl-rh-S1W" id="q8r-eq-ZWx"/>
+                        <outlet property="cumulativecases" destination="ru7-W9-iat" id="QOg-uJ-bKo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zf3-LM-mWX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-190" y="90"/>
+        </scene>
+    </scenes>
+</document>
