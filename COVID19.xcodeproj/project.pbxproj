@@ -1,0 +1,869 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80402E9244CF84400E69F79 /* statsone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80402E8244CF84400E69F79 /* statsone.swift */; };
+		C80402EB244CF84A00E69F79 /* statstwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80402EA244CF84A00E69F79 /* statstwo.swift */; };
+		C80402ED244CF85000E69F79 /* statsthree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80402EC244CF85000E69F79 /* statsthree.swift */; };
+		C80402EF244CFB4800E69F79 /* totalcaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80402EE244CFB4800E69F79 /* totalcaseViewController.swift */; };
+		C83E4743247A041E00EFADAE /* junecumulative.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E4742247A041E00EFADAE /* junecumulative.swift */; };
+		C83E4745247A07AE00EFADAE /* mayincrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E4744247A07AE00EFADAE /* mayincrease.swift */; };
+		C83E4747247A07BB00EFADAE /* juneincrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83E4746247A07BB00EFADAE /* juneincrease.swift */; };
+		C8660EB12451E5D200668729 /* MacawChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8660EB02451E5D200668729 /* MacawChartView.swift */; };
+		C86C8405244E900A00B57DD8 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C86C8404244E900A00B57DD8 /* Raleway-Light.ttf */; };
+		C86C8407244E906E00B57DD8 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C86C8406244E906E00B57DD8 /* Raleway-Regular.ttf */; };
+		C86C8409244E907800B57DD8 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C86C8408244E907800B57DD8 /* Raleway-SemiBold.ttf */; };
+		C86C840B244E92FC00B57DD8 /* unionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C840A244E92FC00B57DD8 /* unionview.swift */; };
+		C86C8410244F500F00B57DD8 /* union.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C840F244F500F00B57DD8 /* union.storyboard */; };
+		C86C8413244F524300B57DD8 /* johnsoncity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8412244F524300B57DD8 /* johnsoncity.storyboard */; };
+		C86C8416244F55C300B57DD8 /* dickinson.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8415244F55C300B57DD8 /* dickinson.storyboard */; };
+		C86C8418244F55DD00B57DD8 /* dickinson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8417244F55DD00B57DD8 /* dickinson.swift */; };
+		C86C841A244F575500B57DD8 /* vestal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8419244F575500B57DD8 /* vestal.swift */; };
+		C86C841C244F576300B57DD8 /* vestal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C841B244F576300B57DD8 /* vestal.storyboard */; };
+		C86C841E244F57C100B57DD8 /* endicott.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C841D244F57C100B57DD8 /* endicott.swift */; };
+		C86C8420244F57D600B57DD8 /* chenango.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C841F244F57D600B57DD8 /* chenango.swift */; };
+		C86C8422244F57EE00B57DD8 /* kirkwood.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8421244F57EE00B57DD8 /* kirkwood.swift */; };
+		C86C8424244F580000B57DD8 /* maine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8423244F580000B57DD8 /* maine.swift */; };
+		C86C8426244F581700B57DD8 /* nanticote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8425244F581700B57DD8 /* nanticote.swift */; };
+		C86C8428244F582D00B57DD8 /* fenton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8427244F582D00B57DD8 /* fenton.swift */; };
+		C86C842A244F583E00B57DD8 /* lisle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8429244F583E00B57DD8 /* lisle.swift */; };
+		C86C842C244F586000B57DD8 /* windsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C842B244F586000B57DD8 /* windsor.swift */; };
+		C86C842E244F587300B57DD8 /* triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C842D244F587300B57DD8 /* triangle.swift */; };
+		C86C8430244F589100B57DD8 /* colesville.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C842F244F589100B57DD8 /* colesville.swift */; };
+		C86C8432244F58A200B57DD8 /* sanford.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8431244F58A200B57DD8 /* sanford.swift */; };
+		C86C8434244F58CD00B57DD8 /* endicott.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8433244F58CD00B57DD8 /* endicott.storyboard */; };
+		C86C8436244F58DD00B57DD8 /* chenango.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8435244F58DD00B57DD8 /* chenango.storyboard */; };
+		C86C8438244F58E600B57DD8 /* kirkwood.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8437244F58E600B57DD8 /* kirkwood.storyboard */; };
+		C86C843A244F58EC00B57DD8 /* maine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8439244F58EC00B57DD8 /* maine.storyboard */; };
+		C86C843C244F58F600B57DD8 /* nanticote.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C843B244F58F600B57DD8 /* nanticote.storyboard */; };
+		C86C843E244F58FD00B57DD8 /* fenton.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C843D244F58FD00B57DD8 /* fenton.storyboard */; };
+		C86C8440244F590300B57DD8 /* lisle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C843F244F590300B57DD8 /* lisle.storyboard */; };
+		C86C8442244F590A00B57DD8 /* windsor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8441244F590A00B57DD8 /* windsor.storyboard */; };
+		C86C8444244F592100B57DD8 /* triangle.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8443244F592100B57DD8 /* triangle.storyboard */; };
+		C86C8446244F592A00B57DD8 /* colesville.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8445244F592A00B57DD8 /* colesville.storyboard */; };
+		C86C8448244F593200B57DD8 /* sanford.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8447244F593200B57DD8 /* sanford.storyboard */; };
+		C86C844A244F5FCB00B57DD8 /* barker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8449244F5FCB00B57DD8 /* barker.storyboard */; };
+		C86C844C244F5FF800B57DD8 /* barker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C844B244F5FF800B57DD8 /* barker.swift */; };
+		C86C844E244F7B6800B57DD8 /* conklin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C844D244F7B6800B57DD8 /* conklin.storyboard */; };
+		C86C8450244F7BAA00B57DD8 /* conklin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C844F244F7BAA00B57DD8 /* conklin.swift */; };
+		C86C8452244F7F4600B57DD8 /* whiteneypoint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8451244F7F4600B57DD8 /* whiteneypoint.storyboard */; };
+		C86C8454244F7FA600B57DD8 /* whitneypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8453244F7FA600B57DD8 /* whitneypoint.swift */; };
+		C86C8456244F810500B57DD8 /* deposit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8455244F810500B57DD8 /* deposit.storyboard */; };
+		C86C8458244F813000B57DD8 /* deposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8457244F813000B57DD8 /* deposit.swift */; };
+		C86C845A244F959100B57DD8 /* contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C8459244F959100B57DD8 /* contact.storyboard */; };
+		C86C845D244FA28400B57DD8 /* caution.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C845C244FA28400B57DD8 /* caution.swift */; };
+		C86C845F244FA32300B57DD8 /* Cautions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C845E244FA32300B57DD8 /* Cautions.storyboard */; };
+		C86C8461244FBC2C00B57DD8 /* contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C8460244FBC2B00B57DD8 /* contact.swift */; };
+		C86C846324509AEF00B57DD8 /* map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C846224509AEF00B57DD8 /* map.storyboard */; };
+		C86C846524509BB400B57DD8 /* mapp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C846424509BB400B57DD8 /* mapp.swift */; };
+		C86C84672450C19A00B57DD8 /* statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C84662450C19A00B57DD8 /* statistics.swift */; };
+		C88D746224493FF5003B2C7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88D746124493FF5003B2C7A /* AppDelegate.swift */; };
+		C88D746424493FF5003B2C7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88D746324493FF5003B2C7A /* SceneDelegate.swift */; };
+		C88D746624493FF5003B2C7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88D746524493FF5003B2C7A /* ViewController.swift */; };
+		C88D746924493FF5003B2C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88D746724493FF5003B2C7A /* Main.storyboard */; };
+		C88D746B24493FF7003B2C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88D746A24493FF7003B2C7A /* Assets.xcassets */; };
+		C899A4DE244CA7DC0085F76F /* binghamtonview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C899A4DD244CA7DC0085F76F /* binghamtonview.swift */; };
+		C899A4E0244CA7EA0085F76F /* binghamton.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C899A4DF244CA7EA0085F76F /* binghamton.storyboard */; };
+		C899A4E3244CA94F0085F76F /* johnsoncity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C899A4E2244CA94F0085F76F /* johnsoncity.swift */; };
+		C899A4E9244CACC50085F76F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C899A4E8244CACC50085F76F /* GoogleService-Info.plist */; };
+		C8A7DA2724BF84AA0034B9F4 /* rootCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA2624BF84AA0034B9F4 /* rootCon.swift */; };
+		C8A7DA2924BF8A050034B9F4 /* rootBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA2824BF8A050034B9F4 /* rootBar.swift */; };
+		C8A7DA2B24BF8A0F0034B9F4 /* rootPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA2A24BF8A0F0034B9F4 /* rootPie.swift */; };
+		C8A7DA2D24BF99C40034B9F4 /* julyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA2C24BF99C40034B9F4 /* julyline.swift */; };
+		C8A7DA2F24BF99CD0034B9F4 /* augustline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA2E24BF99CD0034B9F4 /* augustline.swift */; };
+		C8A7DA3124BF99D30034B9F4 /* septemberline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA3024BF99D30034B9F4 /* septemberline.swift */; };
+		C8A7DA3324BF99D90034B9F4 /* octoberline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA3224BF99D90034B9F4 /* octoberline.swift */; };
+		C8A7DA3524BF99DF0034B9F4 /* novemberline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA3424BF99DF0034B9F4 /* novemberline.swift */; };
+		C8A7DA3724BF99E50034B9F4 /* decemberline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA3624BF99E50034B9F4 /* decemberline.swift */; };
+		C8A7DA3924BF9B6A0034B9F4 /* julyincrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA3824BF9B6A0034B9F4 /* julyincrease.swift */; };
+		C8A7DA3B24BF9B760034B9F4 /* augustincrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA3A24BF9B760034B9F4 /* augustincrease.swift */; };
+		C8A7DA3D24BF9B800034B9F4 /* septemberincrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA3C24BF9B800034B9F4 /* septemberincrease.swift */; };
+		C8A7DA3F24BF9B880034B9F4 /* octoberincrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA3E24BF9B880034B9F4 /* octoberincrease.swift */; };
+		C8A7DA4124BF9B8F0034B9F4 /* novemberincrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA4024BF9B8F0034B9F4 /* novemberincrease.swift */; };
+		C8A7DA4324BF9B950034B9F4 /* decemberincrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7DA4224BF9B950034B9F4 /* decemberincrease.swift */; };
+		C8A8A20E2479F90E0010510B /* maycumulative.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8A20D2479F90E0010510B /* maycumulative.swift */; };
+		C8DBA2E92453871C00DB3635 /* linechart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBA2E82453871C00DB3635 /* linechart.swift */; };
+		C8DBA2EB2453BE2700DB3635 /* aprilgraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBA2EA2453BE2700DB3635 /* aprilgraph.swift */; };
+		C8DBA2ED2453D18F00DB3635 /* barchart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBA2EC2453D18F00DB3635 /* barchart.swift */; };
+		C8DBA2EF2453DA6B00DB3635 /* aprilincrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBA2EE2453DA6B00DB3635 /* aprilincrease.swift */; };
+		C8DBA2F72454957100DB3635 /* smart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBA2F62454957100DB3635 /* smart.swift */; };
+		C8DBA2F924549A2B00DB3635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8DBA2F824549A2B00DB3635 /* LaunchScreen.storyboard */; };
+		C8E254CA2451EC6300F3CFD9 /* SwiftNewsVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E254C92451EC6300F3CFD9 /* SwiftNewsVideo.swift */; };
+		C8E254D124525C0100F3CFD9 /* pies.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E254D024525C0100F3CFD9 /* pies.swift */; };
+		C8E254D42453295E00F3CFD9 /* hospitalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E254D32453295E00F3CFD9 /* hospitalization.swift */; };
+		D782E79A9713598364295F4E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEDE997F98BDE1C4C91B8D47 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8BDB469247C56C2008B5AAB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2493D3E4FBDA8756E8FA5BCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		74B0BCBF6A12B9565FA9F6EF /* Pods-COVID19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVID19.debug.xcconfig"; path = "Target Support Files/Pods-COVID19/Pods-COVID19.debug.xcconfig"; sourceTree = "<group>"; };
+		A318FFEBC167A5665089ECCB /* Pods-COVID19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVID19.release.xcconfig"; path = "Target Support Files/Pods-COVID19/Pods-COVID19.release.xcconfig"; sourceTree = "<group>"; };
+		C80402E8244CF84400E69F79 /* statsone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statsone.swift; sourceTree = "<group>"; };
+		C80402EA244CF84A00E69F79 /* statstwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statstwo.swift; sourceTree = "<group>"; };
+		C80402EC244CF85000E69F79 /* statsthree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statsthree.swift; sourceTree = "<group>"; };
+		C80402EE244CFB4800E69F79 /* totalcaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = totalcaseViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		C83E4742247A041E00EFADAE /* junecumulative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junecumulative.swift; sourceTree = "<group>"; };
+		C83E4744247A07AE00EFADAE /* mayincrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mayincrease.swift; sourceTree = "<group>"; };
+		C83E4746247A07BB00EFADAE /* juneincrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juneincrease.swift; sourceTree = "<group>"; };
+		C8660EB02451E5D200668729 /* MacawChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacawChartView.swift; sourceTree = "<group>"; };
+		C86C8404244E900A00B57DD8 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		C86C8406244E906E00B57DD8 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		C86C8408244E907800B57DD8 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		C86C840A244E92FC00B57DD8 /* unionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unionview.swift; sourceTree = "<group>"; };
+		C86C840F244F500F00B57DD8 /* union.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = union.storyboard; sourceTree = "<group>"; };
+		C86C8412244F524300B57DD8 /* johnsoncity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = johnsoncity.storyboard; sourceTree = "<group>"; };
+		C86C8415244F55C300B57DD8 /* dickinson.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = dickinson.storyboard; sourceTree = "<group>"; };
+		C86C8417244F55DD00B57DD8 /* dickinson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dickinson.swift; sourceTree = "<group>"; };
+		C86C8419244F575500B57DD8 /* vestal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vestal.swift; sourceTree = "<group>"; };
+		C86C841B244F576300B57DD8 /* vestal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = vestal.storyboard; sourceTree = "<group>"; };
+		C86C841D244F57C100B57DD8 /* endicott.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = endicott.swift; sourceTree = "<group>"; };
+		C86C841F244F57D600B57DD8 /* chenango.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chenango.swift; sourceTree = "<group>"; };
+		C86C8421244F57EE00B57DD8 /* kirkwood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kirkwood.swift; sourceTree = "<group>"; };
+		C86C8423244F580000B57DD8 /* maine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maine.swift; sourceTree = "<group>"; };
+		C86C8425244F581700B57DD8 /* nanticote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nanticote.swift; sourceTree = "<group>"; };
+		C86C8427244F582D00B57DD8 /* fenton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fenton.swift; sourceTree = "<group>"; };
+		C86C8429244F583E00B57DD8 /* lisle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lisle.swift; sourceTree = "<group>"; };
+		C86C842B244F586000B57DD8 /* windsor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windsor.swift; sourceTree = "<group>"; };
+		C86C842D244F587300B57DD8 /* triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triangle.swift; sourceTree = "<group>"; };
+		C86C842F244F589100B57DD8 /* colesville.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colesville.swift; sourceTree = "<group>"; };
+		C86C8431244F58A200B57DD8 /* sanford.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sanford.swift; sourceTree = "<group>"; };
+		C86C8433244F58CD00B57DD8 /* endicott.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = endicott.storyboard; sourceTree = "<group>"; };
+		C86C8435244F58DD00B57DD8 /* chenango.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = chenango.storyboard; sourceTree = "<group>"; };
+		C86C8437244F58E600B57DD8 /* kirkwood.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = kirkwood.storyboard; sourceTree = "<group>"; };
+		C86C8439244F58EC00B57DD8 /* maine.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = maine.storyboard; sourceTree = "<group>"; };
+		C86C843B244F58F600B57DD8 /* nanticote.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = nanticote.storyboard; sourceTree = "<group>"; };
+		C86C843D244F58FD00B57DD8 /* fenton.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = fenton.storyboard; sourceTree = "<group>"; };
+		C86C843F244F590300B57DD8 /* lisle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = lisle.storyboard; sourceTree = "<group>"; };
+		C86C8441244F590A00B57DD8 /* windsor.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = windsor.storyboard; sourceTree = "<group>"; };
+		C86C8443244F592100B57DD8 /* triangle.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = triangle.storyboard; sourceTree = "<group>"; };
+		C86C8445244F592A00B57DD8 /* colesville.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = colesville.storyboard; sourceTree = "<group>"; };
+		C86C8447244F593200B57DD8 /* sanford.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sanford.storyboard; sourceTree = "<group>"; };
+		C86C8449244F5FCB00B57DD8 /* barker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = barker.storyboard; sourceTree = "<group>"; };
+		C86C844B244F5FF800B57DD8 /* barker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barker.swift; sourceTree = "<group>"; };
+		C86C844D244F7B6800B57DD8 /* conklin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = conklin.storyboard; sourceTree = "<group>"; };
+		C86C844F244F7BAA00B57DD8 /* conklin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conklin.swift; sourceTree = "<group>"; };
+		C86C8451244F7F4600B57DD8 /* whiteneypoint.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = whiteneypoint.storyboard; sourceTree = "<group>"; };
+		C86C8453244F7FA600B57DD8 /* whitneypoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whitneypoint.swift; sourceTree = "<group>"; };
+		C86C8455244F810500B57DD8 /* deposit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = deposit.storyboard; sourceTree = "<group>"; };
+		C86C8457244F813000B57DD8 /* deposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deposit.swift; sourceTree = "<group>"; };
+		C86C8459244F959100B57DD8 /* contact.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = contact.storyboard; sourceTree = "<group>"; };
+		C86C845C244FA28400B57DD8 /* caution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caution.swift; sourceTree = "<group>"; };
+		C86C845E244FA32300B57DD8 /* Cautions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cautions.storyboard; sourceTree = "<group>"; };
+		C86C8460244FBC2B00B57DD8 /* contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact.swift; sourceTree = "<group>"; };
+		C86C846224509AEF00B57DD8 /* map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = map.storyboard; sourceTree = "<group>"; };
+		C86C846424509BB400B57DD8 /* mapp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapp.swift; sourceTree = "<group>"; };
+		C86C84662450C19A00B57DD8 /* statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statistics.swift; sourceTree = "<group>"; };
+		C88D745E24493FF5003B2C7A /* Broome COVID19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Broome COVID19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88D746124493FF5003B2C7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C88D746324493FF5003B2C7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C88D746524493FF5003B2C7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C88D746824493FF5003B2C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C88D746A24493FF7003B2C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C88D746F24493FF7003B2C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C899A4DD244CA7DC0085F76F /* binghamtonview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = binghamtonview.swift; path = /Users/tomoyoshikimura/Desktop/COVID19/COVID19/Coding/binghamtonview.swift; sourceTree = "<absolute>"; };
+		C899A4DF244CA7EA0085F76F /* binghamton.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = binghamton.storyboard; sourceTree = "<group>"; };
+		C899A4E2244CA94F0085F76F /* johnsoncity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = johnsoncity.swift; path = /Users/tomoyoshikimura/Desktop/COVID19/COVID19/Coding/johnsoncity.swift; sourceTree = "<absolute>"; };
+		C899A4E8244CACC50085F76F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8A7DA2624BF84AA0034B9F4 /* rootCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootCon.swift; sourceTree = "<group>"; };
+		C8A7DA2824BF8A050034B9F4 /* rootBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootBar.swift; sourceTree = "<group>"; };
+		C8A7DA2A24BF8A0F0034B9F4 /* rootPie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootPie.swift; sourceTree = "<group>"; };
+		C8A7DA2C24BF99C40034B9F4 /* julyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = julyline.swift; sourceTree = "<group>"; };
+		C8A7DA2E24BF99CD0034B9F4 /* augustline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = augustline.swift; sourceTree = "<group>"; };
+		C8A7DA3024BF99D30034B9F4 /* septemberline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = septemberline.swift; sourceTree = "<group>"; };
+		C8A7DA3224BF99D90034B9F4 /* octoberline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = octoberline.swift; sourceTree = "<group>"; };
+		C8A7DA3424BF99DF0034B9F4 /* novemberline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novemberline.swift; sourceTree = "<group>"; };
+		C8A7DA3624BF99E50034B9F4 /* decemberline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decemberline.swift; sourceTree = "<group>"; };
+		C8A7DA3824BF9B6A0034B9F4 /* julyincrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = julyincrease.swift; sourceTree = "<group>"; };
+		C8A7DA3A24BF9B760034B9F4 /* augustincrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = augustincrease.swift; sourceTree = "<group>"; };
+		C8A7DA3C24BF9B800034B9F4 /* septemberincrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = septemberincrease.swift; sourceTree = "<group>"; };
+		C8A7DA3E24BF9B880034B9F4 /* octoberincrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = octoberincrease.swift; sourceTree = "<group>"; };
+		C8A7DA4024BF9B8F0034B9F4 /* novemberincrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = novemberincrease.swift; sourceTree = "<group>"; };
+		C8A7DA4224BF9B950034B9F4 /* decemberincrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decemberincrease.swift; sourceTree = "<group>"; };
+		C8A8A20D2479F90E0010510B /* maycumulative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maycumulative.swift; sourceTree = "<group>"; };
+		C8DBA2E82453871C00DB3635 /* linechart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linechart.swift; sourceTree = "<group>"; };
+		C8DBA2EA2453BE2700DB3635 /* aprilgraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aprilgraph.swift; sourceTree = "<group>"; };
+		C8DBA2EC2453D18F00DB3635 /* barchart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barchart.swift; sourceTree = "<group>"; };
+		C8DBA2EE2453DA6B00DB3635 /* aprilincrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aprilincrease.swift; sourceTree = "<group>"; };
+		C8DBA2F62454957100DB3635 /* smart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smart.swift; sourceTree = "<group>"; };
+		C8DBA2F824549A2B00DB3635 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8E254C92451EC6300F3CFD9 /* SwiftNewsVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNewsVideo.swift; sourceTree = "<group>"; };
+		C8E254D024525C0100F3CFD9 /* pies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pies.swift; sourceTree = "<group>"; };
+		C8E254D32453295E00F3CFD9 /* hospitalization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hospitalization.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C88D745B24493FF5003B2C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE0729B7622BD5743B719CD9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEDE997F98BDE1C4C91B8D47 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE57A1705D3983CD7B0A4B88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B0BCBF6A12B9565FA9F6EF /* Pods-COVID19.debug.xcconfig */,
+				A318FFEBC167A5665089ECCB /* Pods-COVID19.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C819BE0F244A8385009DE036 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C88D746724493FF5003B2C7A /* Main.storyboard */,
+				C86C8459244F959100B57DD8 /* contact.storyboard */,
+				C86C845E244FA32300B57DD8 /* Cautions.storyboard */,
+				C86C846224509AEF00B57DD8 /* map.storyboard */,
+				C8DBA2F824549A2B00DB3635 /* LaunchScreen.storyboard */,
+				C86C8411244F522A00B57DD8 /* Town */,
+				C8E254CD24525AB100F3CFD9 /* Graphs */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C86C8403244E8FFB00B57DD8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C86C8404244E900A00B57DD8 /* Raleway-Light.ttf */,
+				C86C8408244E907800B57DD8 /* Raleway-SemiBold.ttf */,
+				C86C8406244E906E00B57DD8 /* Raleway-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C86C840C244E930800B57DD8 /* towns */ = {
+			isa = PBXGroup;
+			children = (
+				C86C844B244F5FF800B57DD8 /* barker.swift */,
+				C899A4DD244CA7DC0085F76F /* binghamtonview.swift */,
+				C86C841F244F57D600B57DD8 /* chenango.swift */,
+				C86C844F244F7BAA00B57DD8 /* conklin.swift */,
+				C86C842F244F589100B57DD8 /* colesville.swift */,
+				C86C8457244F813000B57DD8 /* deposit.swift */,
+				C86C8417244F55DD00B57DD8 /* dickinson.swift */,
+				C86C841D244F57C100B57DD8 /* endicott.swift */,
+				C86C8427244F582D00B57DD8 /* fenton.swift */,
+				C899A4E2244CA94F0085F76F /* johnsoncity.swift */,
+				C86C8421244F57EE00B57DD8 /* kirkwood.swift */,
+				C86C8429244F583E00B57DD8 /* lisle.swift */,
+				C86C8423244F580000B57DD8 /* maine.swift */,
+				C86C8425244F581700B57DD8 /* nanticote.swift */,
+				C86C8431244F58A200B57DD8 /* sanford.swift */,
+				C86C842D244F587300B57DD8 /* triangle.swift */,
+				C86C840A244E92FC00B57DD8 /* unionview.swift */,
+				C86C8419244F575500B57DD8 /* vestal.swift */,
+				C86C8453244F7FA600B57DD8 /* whitneypoint.swift */,
+				C86C842B244F586000B57DD8 /* windsor.swift */,
+			);
+			path = towns;
+			sourceTree = "<group>";
+		};
+		C86C8411244F522A00B57DD8 /* Town */ = {
+			isa = PBXGroup;
+			children = (
+				C86C8449244F5FCB00B57DD8 /* barker.storyboard */,
+				C899A4DF244CA7EA0085F76F /* binghamton.storyboard */,
+				C86C8435244F58DD00B57DD8 /* chenango.storyboard */,
+				C86C8445244F592A00B57DD8 /* colesville.storyboard */,
+				C86C844D244F7B6800B57DD8 /* conklin.storyboard */,
+				C86C8455244F810500B57DD8 /* deposit.storyboard */,
+				C86C8415244F55C300B57DD8 /* dickinson.storyboard */,
+				C86C8433244F58CD00B57DD8 /* endicott.storyboard */,
+				C86C843D244F58FD00B57DD8 /* fenton.storyboard */,
+				C86C8412244F524300B57DD8 /* johnsoncity.storyboard */,
+				C86C8437244F58E600B57DD8 /* kirkwood.storyboard */,
+				C86C843F244F590300B57DD8 /* lisle.storyboard */,
+				C86C8439244F58EC00B57DD8 /* maine.storyboard */,
+				C86C843B244F58F600B57DD8 /* nanticote.storyboard */,
+				C86C8447244F593200B57DD8 /* sanford.storyboard */,
+				C86C8443244F592100B57DD8 /* triangle.storyboard */,
+				C86C840F244F500F00B57DD8 /* union.storyboard */,
+				C86C841B244F576300B57DD8 /* vestal.storyboard */,
+				C86C8451244F7F4600B57DD8 /* whiteneypoint.storyboard */,
+				C86C8441244F590A00B57DD8 /* windsor.storyboard */,
+			);
+			path = Town;
+			sourceTree = "<group>";
+		};
+		C86C8414244F556F00B57DD8 /* MainStats */ = {
+			isa = PBXGroup;
+			children = (
+				C80402E8244CF84400E69F79 /* statsone.swift */,
+				C80402EA244CF84A00E69F79 /* statstwo.swift */,
+				C80402EC244CF85000E69F79 /* statsthree.swift */,
+				C80402EE244CFB4800E69F79 /* totalcaseViewController.swift */,
+			);
+			path = MainStats;
+			sourceTree = "<group>";
+		};
+		C86C845B244F95AF00B57DD8 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBA2F62454957100DB3635 /* smart.swift */,
+				C86C8460244FBC2B00B57DD8 /* contact.swift */,
+				C86C845C244FA28400B57DD8 /* caution.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C88D745524493FF5003B2C7A = {
+			isa = PBXGroup;
+			children = (
+				C88D746024493FF5003B2C7A /* COVID19 */,
+				C88D745F24493FF5003B2C7A /* Products */,
+				BE57A1705D3983CD7B0A4B88 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C88D745F24493FF5003B2C7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88D745E24493FF5003B2C7A /* Broome COVID19.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88D746024493FF5003B2C7A /* COVID19 */ = {
+			isa = PBXGroup;
+			children = (
+				C899A4C7244BF50C0085F76F /* Coding */,
+				C819BE0F244A8385009DE036 /* Storyboard */,
+				C899A4D4244C99FB0085F76F /* Resource */,
+				C88D746A24493FF7003B2C7A /* Assets.xcassets */,
+				C88D746F24493FF7003B2C7A /* Info.plist */,
+				C899A4E8244CACC50085F76F /* GoogleService-Info.plist */,
+				BE0729B7622BD5743B719CD9 /* Resources */,
+			);
+			path = COVID19;
+			sourceTree = "<group>";
+		};
+		C899A4C7244BF50C0085F76F /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				C88D746124493FF5003B2C7A /* AppDelegate.swift */,
+				C88D746324493FF5003B2C7A /* SceneDelegate.swift */,
+				C88D746524493FF5003B2C7A /* ViewController.swift */,
+				C8E254D224525C0600F3CFD9 /* Graphs */,
+				C86C8414244F556F00B57DD8 /* MainStats */,
+				C86C840C244E930800B57DD8 /* towns */,
+				C86C845B244F95AF00B57DD8 /* Others */,
+			);
+			path = Coding;
+			sourceTree = "<group>";
+		};
+		C899A4D4244C99FB0085F76F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C86C8403244E8FFB00B57DD8 /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C8A8A20F2479F9220010510B /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7DA2A24BF8A0F0034B9F4 /* rootPie.swift */,
+				C8E254D024525C0100F3CFD9 /* pies.swift */,
+				C8E254D32453295E00F3CFD9 /* hospitalization.swift */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		C8A8A2102479F9F90010510B /* Line Chart */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7DA2624BF84AA0034B9F4 /* rootCon.swift */,
+				C8DBA2E82453871C00DB3635 /* linechart.swift */,
+				C8DBA2EA2453BE2700DB3635 /* aprilgraph.swift */,
+				C8A8A20D2479F90E0010510B /* maycumulative.swift */,
+				C83E4742247A041E00EFADAE /* junecumulative.swift */,
+				C8A7DA2C24BF99C40034B9F4 /* julyline.swift */,
+				C8A7DA2E24BF99CD0034B9F4 /* augustline.swift */,
+				C8A7DA3024BF99D30034B9F4 /* septemberline.swift */,
+				C8A7DA3224BF99D90034B9F4 /* octoberline.swift */,
+				C8A7DA3424BF99DF0034B9F4 /* novemberline.swift */,
+				C8A7DA3624BF99E50034B9F4 /* decemberline.swift */,
+			);
+			path = "Line Chart";
+			sourceTree = "<group>";
+		};
+		C8A8A2112479FA1A0010510B /* Bar Chart */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7DA2824BF8A050034B9F4 /* rootBar.swift */,
+				C8DBA2EC2453D18F00DB3635 /* barchart.swift */,
+				C8DBA2EE2453DA6B00DB3635 /* aprilincrease.swift */,
+				C83E4744247A07AE00EFADAE /* mayincrease.swift */,
+				C83E4746247A07BB00EFADAE /* juneincrease.swift */,
+				C8A7DA3824BF9B6A0034B9F4 /* julyincrease.swift */,
+				C8A7DA3A24BF9B760034B9F4 /* augustincrease.swift */,
+				C8A7DA3C24BF9B800034B9F4 /* septemberincrease.swift */,
+				C8A7DA3E24BF9B880034B9F4 /* octoberincrease.swift */,
+				C8A7DA4024BF9B8F0034B9F4 /* novemberincrease.swift */,
+				C8A7DA4224BF9B950034B9F4 /* decemberincrease.swift */,
+			);
+			path = "Bar Chart";
+			sourceTree = "<group>";
+		};
+		C8E254CD24525AB100F3CFD9 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		C8E254D224525C0600F3CFD9 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				C8660EB02451E5D200668729 /* MacawChartView.swift */,
+				C86C846424509BB400B57DD8 /* mapp.swift */,
+				C86C84662450C19A00B57DD8 /* statistics.swift */,
+				C8E254C92451EC6300F3CFD9 /* SwiftNewsVideo.swift */,
+				C8A8A20F2479F9220010510B /* PieChart */,
+				C8A8A2102479F9F90010510B /* Line Chart */,
+				C8A8A2112479FA1A0010510B /* Bar Chart */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C88D745D24493FF5003B2C7A /* COVID19 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88D747224493FF7003B2C7A /* Build configuration list for PBXNativeTarget "COVID19" */;
+			buildPhases = (
+				CC7460BB5C348107F8B3343F /* [CP] Check Pods Manifest.lock */,
+				C88D745A24493FF5003B2C7A /* Sources */,
+				C88D745B24493FF5003B2C7A /* Frameworks */,
+				C88D745C24493FF5003B2C7A /* Resources */,
+				5ADA0041DCDF151C2521C654 /* [CP] Embed Pods Frameworks */,
+				C8BDB469247C56C2008B5AAB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COVID19;
+			productName = COVID19;
+			productReference = C88D745E24493FF5003B2C7A /* Broome COVID19.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88D745624493FF5003B2C7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tomoyoshi Kimura";
+				TargetAttributes = {
+					C88D745D24493FF5003B2C7A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C88D745924493FF5003B2C7A /* Build configuration list for PBXProject "COVID19" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88D745524493FF5003B2C7A;
+			productRefGroup = C88D745F24493FF5003B2C7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88D745D24493FF5003B2C7A /* COVID19 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88D745C24493FF5003B2C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86C843A244F58EC00B57DD8 /* maine.storyboard in Resources */,
+				C86C8409244E907800B57DD8 /* Raleway-SemiBold.ttf in Resources */,
+				C88D746B24493FF7003B2C7A /* Assets.xcassets in Resources */,
+				C8DBA2F924549A2B00DB3635 /* LaunchScreen.storyboard in Resources */,
+				C86C8410244F500F00B57DD8 /* union.storyboard in Resources */,
+				C899A4E9244CACC50085F76F /* GoogleService-Info.plist in Resources */,
+				C86C8452244F7F4600B57DD8 /* whiteneypoint.storyboard in Resources */,
+				C86C846324509AEF00B57DD8 /* map.storyboard in Resources */,
+				C86C8407244E906E00B57DD8 /* Raleway-Regular.ttf in Resources */,
+				C86C8438244F58E600B57DD8 /* kirkwood.storyboard in Resources */,
+				C86C8448244F593200B57DD8 /* sanford.storyboard in Resources */,
+				C86C843C244F58F600B57DD8 /* nanticote.storyboard in Resources */,
+				C86C8434244F58CD00B57DD8 /* endicott.storyboard in Resources */,
+				C86C843E244F58FD00B57DD8 /* fenton.storyboard in Resources */,
+				C86C8416244F55C300B57DD8 /* dickinson.storyboard in Resources */,
+				C86C8405244E900A00B57DD8 /* Raleway-Light.ttf in Resources */,
+				C88D746924493FF5003B2C7A /* Main.storyboard in Resources */,
+				C86C844A244F5FCB00B57DD8 /* barker.storyboard in Resources */,
+				C86C845A244F959100B57DD8 /* contact.storyboard in Resources */,
+				C86C8446244F592A00B57DD8 /* colesville.storyboard in Resources */,
+				C899A4E0244CA7EA0085F76F /* binghamton.storyboard in Resources */,
+				C86C8436244F58DD00B57DD8 /* chenango.storyboard in Resources */,
+				C86C8413244F524300B57DD8 /* johnsoncity.storyboard in Resources */,
+				C86C8456244F810500B57DD8 /* deposit.storyboard in Resources */,
+				C86C841C244F576300B57DD8 /* vestal.storyboard in Resources */,
+				C86C8444244F592100B57DD8 /* triangle.storyboard in Resources */,
+				C86C8440244F590300B57DD8 /* lisle.storyboard in Resources */,
+				C86C844E244F7B6800B57DD8 /* conklin.storyboard in Resources */,
+				C86C8442244F590A00B57DD8 /* windsor.storyboard in Resources */,
+				C86C845F244FA32300B57DD8 /* Cautions.storyboard in Resources */,
+				D782E79A9713598364295F4E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ADA0041DCDF151C2521C654 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COVID19/Pods-COVID19-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-COVID19/Pods-COVID19-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-COVID19/Pods-COVID19-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC7460BB5C348107F8B3343F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COVID19-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88D745A24493FF5003B2C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86C842A244F583E00B57DD8 /* lisle.swift in Sources */,
+				C83E4745247A07AE00EFADAE /* mayincrease.swift in Sources */,
+				C86C8424244F580000B57DD8 /* maine.swift in Sources */,
+				C86C842C244F586000B57DD8 /* windsor.swift in Sources */,
+				C86C8461244FBC2C00B57DD8 /* contact.swift in Sources */,
+				C8A7DA3924BF9B6A0034B9F4 /* julyincrease.swift in Sources */,
+				C86C845D244FA28400B57DD8 /* caution.swift in Sources */,
+				C8A7DA3324BF99D90034B9F4 /* octoberline.swift in Sources */,
+				C80402EF244CFB4800E69F79 /* totalcaseViewController.swift in Sources */,
+				C86C8426244F581700B57DD8 /* nanticote.swift in Sources */,
+				C86C8454244F7FA600B57DD8 /* whitneypoint.swift in Sources */,
+				C899A4DE244CA7DC0085F76F /* binghamtonview.swift in Sources */,
+				C8E254D124525C0100F3CFD9 /* pies.swift in Sources */,
+				C8A7DA2B24BF8A0F0034B9F4 /* rootPie.swift in Sources */,
+				C86C8458244F813000B57DD8 /* deposit.swift in Sources */,
+				C86C84672450C19A00B57DD8 /* statistics.swift in Sources */,
+				C86C844C244F5FF800B57DD8 /* barker.swift in Sources */,
+				C86C8420244F57D600B57DD8 /* chenango.swift in Sources */,
+				C8A7DA2F24BF99CD0034B9F4 /* augustline.swift in Sources */,
+				C86C841A244F575500B57DD8 /* vestal.swift in Sources */,
+				C88D746624493FF5003B2C7A /* ViewController.swift in Sources */,
+				C8A7DA2924BF8A050034B9F4 /* rootBar.swift in Sources */,
+				C83E4743247A041E00EFADAE /* junecumulative.swift in Sources */,
+				C8DBA2EF2453DA6B00DB3635 /* aprilincrease.swift in Sources */,
+				C8A7DA3524BF99DF0034B9F4 /* novemberline.swift in Sources */,
+				C8A7DA3724BF99E50034B9F4 /* decemberline.swift in Sources */,
+				C8A7DA3B24BF9B760034B9F4 /* augustincrease.swift in Sources */,
+				C86C8428244F582D00B57DD8 /* fenton.swift in Sources */,
+				C8E254D42453295E00F3CFD9 /* hospitalization.swift in Sources */,
+				C86C8422244F57EE00B57DD8 /* kirkwood.swift in Sources */,
+				C86C841E244F57C100B57DD8 /* endicott.swift in Sources */,
+				C83E4747247A07BB00EFADAE /* juneincrease.swift in Sources */,
+				C86C8450244F7BAA00B57DD8 /* conklin.swift in Sources */,
+				C8A7DA3D24BF9B800034B9F4 /* septemberincrease.swift in Sources */,
+				C8DBA2ED2453D18F00DB3635 /* barchart.swift in Sources */,
+				C86C846524509BB400B57DD8 /* mapp.swift in Sources */,
+				C8DBA2EB2453BE2700DB3635 /* aprilgraph.swift in Sources */,
+				C8660EB12451E5D200668729 /* MacawChartView.swift in Sources */,
+				C86C840B244E92FC00B57DD8 /* unionview.swift in Sources */,
+				C80402ED244CF85000E69F79 /* statsthree.swift in Sources */,
+				C8A7DA3F24BF9B880034B9F4 /* octoberincrease.swift in Sources */,
+				C8A8A20E2479F90E0010510B /* maycumulative.swift in Sources */,
+				C8E254CA2451EC6300F3CFD9 /* SwiftNewsVideo.swift in Sources */,
+				C80402EB244CF84A00E69F79 /* statstwo.swift in Sources */,
+				C80402E9244CF84400E69F79 /* statsone.swift in Sources */,
+				C8DBA2E92453871C00DB3635 /* linechart.swift in Sources */,
+				C88D746224493FF5003B2C7A /* AppDelegate.swift in Sources */,
+				C899A4E3244CA94F0085F76F /* johnsoncity.swift in Sources */,
+				C88D746424493FF5003B2C7A /* SceneDelegate.swift in Sources */,
+				C8A7DA4124BF9B8F0034B9F4 /* novemberincrease.swift in Sources */,
+				C86C8430244F589100B57DD8 /* colesville.swift in Sources */,
+				C8A7DA2D24BF99C40034B9F4 /* julyline.swift in Sources */,
+				C8A7DA3124BF99D30034B9F4 /* septemberline.swift in Sources */,
+				C8A7DA4324BF9B950034B9F4 /* decemberincrease.swift in Sources */,
+				C86C8418244F55DD00B57DD8 /* dickinson.swift in Sources */,
+				C86C8432244F58A200B57DD8 /* sanford.swift in Sources */,
+				C86C842E244F587300B57DD8 /* triangle.swift in Sources */,
+				C8A7DA2724BF84AA0034B9F4 /* rootCon.swift in Sources */,
+				C8DBA2F72454957100DB3635 /* smart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C88D746724493FF5003B2C7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88D746824493FF5003B2C7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEDE997F98BDE1C4C91B8D47 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2493D3E4FBDA8756E8FA5BCA /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C88D747024493FF7003B2C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C88D747124493FF7003B2C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C88D747324493FF7003B2C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B0BCBF6A12B9565FA9F6EF /* Pods-COVID19.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XLGJ9X6BW;
+				INFOPLIST_FILE = COVID19/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomoyoshki.COVID19Broome;
+				PRODUCT_NAME = "Broome COVID19";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C88D747424493FF7003B2C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A318FFEBC167A5665089ECCB /* Pods-COVID19.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5XLGJ9X6BW;
+				INFOPLIST_FILE = COVID19/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomoyoshki.COVID19Broome;
+				PRODUCT_NAME = "Broome COVID19";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88D745924493FF5003B2C7A /* Build configuration list for PBXProject "COVID19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88D747024493FF7003B2C7A /* Debug */,
+				C88D747124493FF7003B2C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88D747224493FF7003B2C7A /* Build configuration list for PBXNativeTarget "COVID19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88D747324493FF7003B2C7A /* Debug */,
+				C88D747424493FF7003B2C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C88D745624493FF5003B2C7A /* Project object */;
+}

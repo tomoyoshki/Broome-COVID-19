@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9D3C6367-4B1C-464E-9C04-EFADE35040DB"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5503AADC-C5FE-4698-A325-0687CF6C8850"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "COVID19/Coding/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "5503AADC-C5FE-4698-A325-0687CF6C8850 - 9167a68c7eef4c1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COVID19.ViewController.__deallocating_deinit"
+                  moduleName = "COVID19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomoyoshikimura/Desktop/COVID19/COVID19/Coding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "5503AADC-C5FE-4698-A325-0687CF6C8850 - 19e488ba22fc1ef0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COVID19.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; COVID19.ViewController"
+                  moduleName = "COVID19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomoyoshikimura/Desktop/COVID19/COVID19/Coding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "5503AADC-C5FE-4698-A325-0687CF6C8850 - 765646c4b4884b3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COVID19.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; COVID19.ViewController"
+                  moduleName = "COVID19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomoyoshikimura/Desktop/COVID19/COVID19/Coding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "742">
+               </Location>
+               <Location
+                  uuid = "5503AADC-C5FE-4698-A325-0687CF6C8850 - 519916129b58db48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COVID19.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;COVID19.ViewController&gt;"
+                  moduleName = "COVID19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomoyoshikimura/Desktop/COVID19/COVID19/Coding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "5503AADC-C5FE-4698-A325-0687CF6C8850 - 5e54416386dce256"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "COVID19.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;COVID19.ViewController&gt;"
+                  moduleName = "COVID19"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tomoyoshikimura/Desktop/COVID19/COVID19/Coding/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "683">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
